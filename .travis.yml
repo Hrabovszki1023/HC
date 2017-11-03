@@ -14,7 +14,7 @@ jdk:
 # Environment variables
 env:
   global:
-    - GH_REPO_NAME: OKW
+    - GH_REPO_NAME: HC
     - DOXYFILE: $TRAVIS_BUILD_DIR/src/doxygen/HC_DE.doxyfile
     - GH_REPO_REF: github.com/Hrabovszki1023/HC.git
     - WORKSPACE: $TRAVIS_BUILD_DIR
