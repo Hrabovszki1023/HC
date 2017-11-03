@@ -7,7 +7,6 @@ import org.junit.rules.TestName;
 
 import okw.OKW_Memorize_Sngltn;
 import okw.core.EN;
-import okw.gui.frames.hc.HC_Introduction;
 
 /**
 * \~
