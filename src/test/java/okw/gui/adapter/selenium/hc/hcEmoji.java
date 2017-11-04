@@ -4,11 +4,6 @@ import java.util.ArrayList;
 
 import okw.gui.OKWLocator;
 import okw.gui.adapter.selenium.SeImage;
-// happy https://user-images.githubusercontent.com/15831418/32339463-2098a0f0-bff8-11e7-8c28-7187bc701624.png
-// funny https://user-images.githubusercontent.com/15831418/32339454-18226500-bff8-11e7-856b-189d5924b5ec.png
-// surprised https://user-images.githubusercontent.com/15831418/32339480-2c2f8ec4-bff8-11e7-8b29-93e0fb6d8e35.png
-// cry https://user-images.githubusercontent.com/15831418/32339440-10706ce4-bff8-11e7-9b64-40c9e62ba576.png
-// angry https://user-images.githubusercontent.com/15831418/32339373-eed1259c-bff7-11e7-991e-15396e3052b2.png
 
 /**
  * @ingroup groupSeleniumChildGUIAdapter 
@@ -97,12 +92,12 @@ public class hcEmoji extends SeImage
      *  
      * | Rückgabe Wert      | Image | 
      * | ------------------ | :-----------: | 
-     * | happy | <img src="https://user-images.githubusercontent.com/15831418/32339463-2098a0f0-bff8-11e7-8c28-7187bc701624.png" width="40" hight=auto  alt="happy"> |
-     * | funny | <img src="https://user-images.githubusercontent.com/15831418/32339454-18226500-bff8-11e7-856b-189d5924b5ec.png width="40" hight=auto  alt="funny"> |
-     * | surprised | <img src="https://user-images.githubusercontent.com/15831418/32339480-2c2f8ec4-bff8-11e7-8b29-93e0fb6d8e35.png width="40" hight=auto  alt="surprised"> |
-     * | cry | <img src="https://user-images.githubusercontent.com/15831418/32339440-10706ce4-bff8-11e7-9b64-40c9e62ba576.png width="40" hight=auto  alt="cry"> |
-     * | angry | <img src="https://user-images.githubusercontent.com/15831418/32339373-eed1259c-bff7-11e7-991e-15396e3052b2.png width="40" hight=auto  alt="angry"> |
-     * | angry | <img src="https://user-images.githubusercontent.com/15831418/32339373-eed1259c-bff7-11e7-991e-15396e3052b2.png width="40" hight=auto  alt="angry"> |
+     * | happy | <img src="https://user-images.githubusercontent.com/15831418/32339463-2098a0f0-bff8-11e7-8c28-7187bc701624.png" width="40" height="auto" alt="happy"> |
+     * | funny | <img src="https://user-images.githubusercontent.com/15831418/32339454-18226500-bff8-11e7-856b-189d5924b5ec.png" width="40" height="auto" alt="funny"> |
+     * | surprised | <img src="https://user-images.githubusercontent.com/15831418/32339480-2c2f8ec4-bff8-11e7-8b29-93e0fb6d8e35.png" width="40" height="auto" alt="surprised"> |
+     * | cry | <img src="https://user-images.githubusercontent.com/15831418/32339440-10706ce4-bff8-11e7-9b64-40c9e62ba576.png" width="40" height="auto" alt="cry"> |
+     * | angry | <img src="https://user-images.githubusercontent.com/15831418/32339373-eed1259c-bff7-11e7-991e-15396e3052b2.png" width="40" height="auto" alt="angry"> |
+     * | angry | <img src="https://user-images.githubusercontent.com/15831418/32339373-eed1259c-bff7-11e7-991e-15396e3052b2.png" width="40" height="auto" alt="angry"> |
      *  
      *  @return "happy", "funny", "surprised", "cry", "angry" - entsprechend Image Lise in der Beschreibung oben.
      *          Sonst "uknown", wenn keines der 1. Werte zutrifft, wird  zurückgeliefert

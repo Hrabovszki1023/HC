@@ -17,7 +17,7 @@ import okw.gui.adapter.selenium.webdriver.SeDriver;
  * \~german
  *  Diese Klasse representiert einen `hc-count-label` Button. Dieser wird mit Selenium angsteuert wird.
  *  
- *  <img src="https://user-images.githubusercontent.com/15831418/32337061-46c5b1b6-bff1-11e7-86ba-a3c12de9da54.png" width="50%" hight=auto alt="Screenshot">
+ *  <img src="https://user-images.githubusercontent.com/15831418/32337061-46c5b1b6-bff1-11e7-86ba-a3c12de9da54.png" width="100" height="auto" alt="Screenshot">
  *  
  *  Der unterschied zu einem "normalen" Button: ´VerifyLabel( "FN", "ExpVal" )´, ´MemorizeLabel( "FN", "ExpVal" )´ und ´LogLabel( "FN", "ExpVal" )´
  *  Interagieren mit dem hochgestelleten _Count-Label_ recht oben, - im Beispiel "10".
