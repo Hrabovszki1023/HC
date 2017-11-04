@@ -1,0 +1,5 @@
+<map id="hc.testcases.hcEmoji.hcEmoji_Test" name="hc.testcases.hcEmoji.hcEmoji_Test">
+<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___chrome___test.html" title="{hc.testcases.hcEmoji.hcEmoji\l_Chrome_Test\n|~ myLog2HTML\l|+ FirefoxAfter()\l+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="5,161,203,282"/>
+<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___firefox___test.html" title="{hc.testcases.hcEmoji.hcEmoji\l_Firefox_Test\n|~ myLog2HTML\l|+ FirefoxAfter()\l+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="227,161,425,282"/>
+<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html" title="{hc.testcases.hcEmoji.hcEmoji\l_HTMLUnitDriver_Test\n|~ myLog2HTML\l|+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="450,168,648,275"/>
+</map>
