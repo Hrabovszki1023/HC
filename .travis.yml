@@ -37,8 +37,8 @@ before_install:
 #    - export OKWGeckodriverPath=$PWD/geckodriver/geckodriver
 #    - echo $OKWGeckodriverPath 
   
-install: 
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -Dgpg.skip=true -B -V
+#install: 
+#  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -Dgpg.skip=true -B -V
 
 before_script:
 #   - "export DISPLAY=:99.0"
@@ -59,9 +59,7 @@ after_success:
   - ./InstallDoxygen.sh
   - chmod +x generateDocumentationAndDeploy.sh
   - ./generateDocumentationAndDeploy.sh
-  - cd $TRAVIS_BUILD_DIR/html
-  - ls -sl
-
+    
 notifications:
   email:
     - zh@openkeyword.de
