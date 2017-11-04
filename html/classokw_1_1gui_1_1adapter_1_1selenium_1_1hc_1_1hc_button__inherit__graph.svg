@@ -23,7 +23,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<g id="a_node3"><a xlink:href="classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html" target="_top" xlink:title="Diese Klasse representiert einen hc&#45;count&#45;label Button. ">
+<g id="a_node3"><a xlink:href="classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html" target="_top" xlink:title="Diese Klasse representiert einen Button mit hc&#45;count&#45;label. ">
 <polygon fill="white" stroke="black" points="-0.5,-0.5 -0.5,-101.5 154.5,-101.5 154.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="start" x="7.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">okw.gui.adapter.selenium.hc.hc</text>
 <text text-anchor="middle" x="77" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">ButtonWithCountLabel</text>
