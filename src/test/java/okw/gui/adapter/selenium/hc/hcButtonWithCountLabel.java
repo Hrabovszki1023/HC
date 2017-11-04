@@ -25,7 +25,7 @@ import okw.gui.adapter.selenium.webdriver.SeDriver;
  *  # Unterstützte Tag-Strutur
  *  Folgende HTML-Tag-Struktur wird unterstützt: 
  *  
- *  \code{.html}
+ *  \code{.htm}
  *  <button data-v-bce39362="" class="button is-primary">
  *    Over me, a count
  *       <span data-v-f73ffc22="" class="count" data-v-bce39362="">10</span>

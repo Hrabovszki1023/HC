@@ -14,7 +14,7 @@ import okw.gui.adapter.selenium.SeImage;
  *  # Unterstützter Tag
  *  Folgender HTML-Tag wird unterstützt:
  *  
- *  \code{.html}
+ *  \code{.htm}
  *  <img data-v-25439cc6="" src="/assets/svg/emoji/happy.svg" style="display: inline-block;" width="80" height="auto">
  *  \endcode
  * 
@@ -23,7 +23,7 @@ import okw.gui.adapter.selenium.SeImage;
  * 
  * 
  * VUE Code:
- *  \code{.html}
+ *  \code{.htm}
  *  <button data-v-bce39362="" class="button is-primary">Caption des hcButtonWithCountLabel
  *       <span data-v-f73ffc22="" class="count" data-v-bce39362="">10</span>
  *  </button>
