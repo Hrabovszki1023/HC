@@ -23,7 +23,7 @@
 </g>
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
-<g id="a_node2"><a xlink:href="classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html" target="_top" xlink:title="{hc.testcases.hcEmoji.hcEmoji_Test\n|+ name\l~ myMem\l# ApplicationName\l|+ tcLogExists()\l}">
+<g id="a_node2"><a xlink:href="classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html" target="_top" xlink:title="Test&#45;Klasse zur Implementierungsprüfung der Klasse okw.gui.adapter.selenium.hc.hcEmoji. ">
 <polygon fill="white" stroke="black" points="0,-128.5 0,-207.5 174,-207.5 174,-128.5 0,-128.5"/>
 <text text-anchor="middle" x="87" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00">hc.testcases.hcEmoji.hcEmoji_Test</text>
 <polyline fill="none" stroke="black" points="0,-188.5 174,-188.5 "/>
