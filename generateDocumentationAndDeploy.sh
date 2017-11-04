@@ -61,7 +61,17 @@ git config user.email "travis@travis-ci.org"
 # stayed the same and will only update the changed files. So the gh-pages branch
 # can be safely cleaned, and it is sure that everything pushed later is the new
 # documentation.
+echo '----------------'
+echo '>> rm -rf *'
 rm -rf *
+
+echo '----------------'
+echo '>> pwd'
+pwd
+
+echo '----------------'
+echo '>> ls -sl'
+ls -sl
 
 # Need to create a .nojekyll file to allow filenames starting with an underscore
 # to be seen on the gh-pages site. Therefore creating an empty .nojekyll file.
@@ -76,7 +86,13 @@ echo 'Generating Doxygen code documentation...'
 echo '================================================='
 # Redirect both stderr and stdout to the log file AND the console.
 $HOME/local/bin/doxygen $DOXYFILE # 2>&1 | tee doxygen.log
+
+echo '----------------'
+echo '>> pwd'
 pwd
+
+echo '----------------'
+echo '>> ls -sl'
 ls -sl
 
 ################################################################################
@@ -93,10 +109,14 @@ if [ -d "html" ] && [ -f "html/index.html" ]; then
     # gh-pages branch.
     # GitHub is smart enough to know which files have changed and which files have
     # stayed the same and will only update the changed files.
+    echo '----------------'
+    echo '>> git add --all'
     git add --all
 
     # Commit the added files with a title and description containing the Travis CI
     # build number and the GitHub commit reference that issued this build.
+    echo '----------------'
+    echo '>> git commit -m "Deploy code docs to GitHub Pages Travis build: ${TRAVIS_BUILD_NUMBER}" -m "Commit: ${TRAVIS_COMMIT}"'
     git commit -m "Deploy code docs to GitHub Pages Travis build: ${TRAVIS_BUILD_NUMBER}" -m "Commit: ${TRAVIS_COMMIT}"
 
     # Force push to the remote gh-pages branch.
