@@ -15,7 +15,7 @@ import okw.gui.adapter.selenium.webdriver.SeDriver;
  * @ingroup groupSeleniumChildGUIAdapter 
  * 
  * \~german
- *  Diese Klasse representiert einen `hc-count-label` Button. Dieser wird mit Selenium angsteuert wird.
+ *  Diese Klasse representiert einen Button mit `hc-count-label`. Dieser wird mit Selenium angsteuert wird.
  *  
  *  <img src="https://user-images.githubusercontent.com/15831418/32337061-46c5b1b6-bff1-11e7-86ba-a3c12de9da54.png" width="100" height="auto" alt="Screenshot">
  *  
@@ -32,8 +32,8 @@ import okw.gui.adapter.selenium.webdriver.SeDriver;
  *  </button>
  *  \endcode
  * 
- * # VUE Code:
- *  \code{.html}
+ * # VUE Code
+ *  \code{.xml}
  *  <button data-v-bce39362="" class="button is-primary">Caption des hcButtonWithCountLabel
  *       <span data-v-f73ffc22="" class="count" data-v-bce39362="">10</span>
  *  </button>
