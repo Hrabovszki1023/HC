@@ -2,6 +2,7 @@ var NAVTREE =
 [
   [ "HC", "index.html", [
     [ "Human Connection", "index.html", "index" ],
+    [ "Module", "modules.html", "modules" ],
     [ "Klassen", "annotated.html", [
       [ "Auflistung der Klassen", "annotated.html", "annotated_dup" ],
       [ "Klassen-Verzeichnis", "classes.html", null ],
