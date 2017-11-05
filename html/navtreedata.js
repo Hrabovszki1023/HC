@@ -1,7 +1,8 @@
 var NAVTREE =
 [
   [ "HC", "index.html", [
-    [ "OpenKeyWord", "index.html", "index" ],
+    [ "Human Connection", "index.html", null ],
+    [ "Liste der Selenium GUI-Adapter", "ref_selenium_g_u_iadapter.html", null ],
     [ "Klassen", "annotated.html", [
       [ "Auflistung der Klassen", "annotated.html", "annotated_dup" ],
       [ "Klassen-Verzeichnis", "classes.html", null ],
