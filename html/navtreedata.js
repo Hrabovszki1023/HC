@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "HC", "index.html", [
+    [ "OpenKeyWord", "index.html", "index" ],
     [ "Klassen", "annotated.html", [
       [ "Auflistung der Klassen", "annotated.html", "annotated_dup" ],
       [ "Klassen-Verzeichnis", "classes.html", null ],
