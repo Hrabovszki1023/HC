@@ -6,7 +6,7 @@ import okw.gui.OKWLocator;
 import okw.gui.adapter.selenium.SeImage;
 
 /**
- * @ingroup groupSeleniumChildGUIAdapter 
+ * @ingroup grouphcGuiAdapter 
  * 
  * \~german
  *  Diese Klasse representiert einen `hc-imoji` Image. Dieser wird mit Selenium angsteuert wird und ist von der Klasse SeImage abgeleitet.

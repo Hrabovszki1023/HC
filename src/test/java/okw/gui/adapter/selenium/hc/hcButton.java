@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import okw.gui.OKWLocator;
 import okw.gui.adapter.selenium.SeButton;
 
+/**
+ * @ingroup grouphcGuiAdapter 
+*/
 public class hcButton extends SeButton
 {
 

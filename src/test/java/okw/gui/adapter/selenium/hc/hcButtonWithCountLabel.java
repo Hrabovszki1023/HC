@@ -12,7 +12,7 @@ import okw.gui.adapter.selenium.webdriver.SeDriver;
 
 
 /**
- * @ingroup groupSeleniumChildGUIAdapter 
+ * @ingroup grouphcGuiAdapter 
  * 
  * \~german
  *  Diese Klasse representiert einen Button mit `hc-count-label`. Dieser wird mit Selenium angsteuert wird.
