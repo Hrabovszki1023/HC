@@ -7,6 +7,7 @@ import okw.OKW_Memorize_Sngltn;
 import okw.core.EN;
 
 /**
+* @ingroup grouphcGuiTestcases
 * \~
 * 
 * @author zoltan

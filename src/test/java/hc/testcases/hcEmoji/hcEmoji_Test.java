@@ -9,8 +9,8 @@ import okw.OKW_Memorize_Sngltn;
 import okw.core.EN;
 
 /**
- * @ingroup grouphcGuiTestcases
- * 
+* @ingroup grouphcGuiTestcases
+* 
 * Test-Klasse zur Implementierungsprüfung der Klasse okw.gui.adapter.selenium.hc.hcEmoji
 * 
 * \~

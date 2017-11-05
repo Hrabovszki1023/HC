@@ -5,6 +5,9 @@ import okw.gui.adapter.selenium.SeBrowserChild;
 import okw.gui.adapter.selenium.hc.hcButtonWithCountLabel;
 import okw.gui.adapter.selenium.hc.hcEmoji;
 
+/**
+ * @ingroup grouphcGuiFrames 
+ */
 @OKW(FN = "HC Introduction")
 public class HC_Introduction extends SeBrowserChild
 {

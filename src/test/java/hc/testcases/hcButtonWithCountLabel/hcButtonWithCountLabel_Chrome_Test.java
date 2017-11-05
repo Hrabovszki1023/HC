@@ -9,7 +9,7 @@ import org.junit.BeforeClass;
 
 /**
 * \~
-* @ingroup groupSeleniumChildGUIAdapterTests
+* @ingroup grouphcGuiTestcases
 * 
 * @author zoltan
 */

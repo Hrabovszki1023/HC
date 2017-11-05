@@ -7,7 +7,7 @@ import org.junit.*;
 
 /**
 * \~
-* @ingroup groupSeleniumChildGUIAdapterTests
+* @ingroup grouphcGuiTestcases
 * 
 * @author zoltan
 */
