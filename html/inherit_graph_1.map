@@ -1,5 +1,5 @@
 <map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
-<area shape="rect" id="node1" href="$classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html" title="Test&#45;Klasse zur Implementierungsprüfung der Klasse okw.gui.adapter.selenium.hc.hcEmoji. " alt="" coords="5,77,237,104"/>
+<area shape="rect" id="node1" href="$classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html" title="Test&#45;Klasse zur Prüfung der Implementierung der Klasse okw.gui.adapter.selenium.hc.hcEmoji. " alt="" coords="5,77,237,104"/>
 <area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___chrome___test.html" title="hc.testcases.hcEmoji.hcEmoji\l_Chrome_Test" alt="" coords="286,5,485,46"/>
 <area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___firefox___test.html" title="hc.testcases.hcEmoji.hcEmoji\l_Firefox_Test" alt="" coords="286,70,485,111"/>
 <area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html" title="hc.testcases.hcEmoji.hcEmoji\l_HTMLUnitDriver_Test" alt="" coords="286,135,485,177"/>
