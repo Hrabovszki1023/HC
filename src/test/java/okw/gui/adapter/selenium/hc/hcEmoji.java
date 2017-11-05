@@ -18,11 +18,18 @@ import okw.gui.adapter.selenium.SeImage;
  *  <img data-v-25439cc6="" src="/assets/svg/emoji/happy.svg" style="display: inline-block;" width="80" height="auto">
  *  \endcode
  * 
- * Hinweis entscheidend ist der Wert des Attributes `src`. Dieser kann mit folgenden werten enden:
- * `happy`, `funny`, `surprised`, `cry`, `angry`
+ * \note
+ * Entscheidend ist der Wert des Attributes `src`. Dieser kann mit folgenden Werten enden:
+ *  - `happy.svg`,
+ *  - `funny.svg`g,
+ *  - `surprised.svg`,
+ *  - `cry.svg`,
+ *  - `angry.svg`
  * 
  * 
- * VUE Code:
+ * # VUE Code
+ *  Folgender VUE-Tag wird unterstützt:
+
  *  \code{.htm}
  *  <button data-v-bce39362="" class="button is-primary">Caption des hcButtonWithCountLabel
  *       <span data-v-f73ffc22="" class="count" data-v-bce39362="">10</span>
