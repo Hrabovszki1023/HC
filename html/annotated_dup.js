@@ -1,6 +1,5 @@
 var annotated_dup =
 [
-    [ "Radiolist", "ref_selenium_g_u_iadapter.html#refRadioList", null ],
     [ "hc", null, [
       [ "testcases", null, [
         [ "hcButtonWithCountLabel", null, [
