@@ -11,7 +11,7 @@ import okw.core.EN;
 /**
 * @ingroup grouphcGuiTestcases
 * 
-* Test-Klasse zur Implementierungsprüfung der Klasse okw.gui.adapter.selenium.hc.hcEmoji
+* Test-Klasse zur Prüfung der Implementierung der Klasse okw.gui.adapter.selenium.hc.hcEmoji
 * 
 * \~
 *  @author Zoltan Hrabovszki
@@ -29,11 +29,13 @@ public class hcEmoji_Test
 
     /**
      * \~german
-     * Testet das Schlüsselwort VerifyValue( FN, ExpVal ) für Klasse hcEmoji ab.
+     * Testet das Schlüsselwort VerifyValue( FN, ExpVal ) der Klasse okw.gui.adapter.selenium.hc.hcEmoji ab.
      * 
-     * Hinweis: Für die möglichen Werte siehe okw.gui.adapter.selenium.hc.hcEmoji
+     * @par Hinweis:
+     * Die erlaubten/möglichen Werte sind in der Klasse okw.gui.adapter.selenium.hc.hcEmoji dokumentiert.
+     * 
      *  \~
-     *  @author Zoltan Hrabovszki
+     *  @author Zoltán Hrabovszki
      *  @date 2017-11-04
      */ 
     @Test
