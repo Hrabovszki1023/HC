@@ -12,16 +12,16 @@ import okw.gui.adapter.selenium.SeImage;
  *  Diese Klasse representiert einen `hc-imoji` Image. Dieser wird mit Selenium angsteuert wird und ist von der Klasse SeImage abgeleitet.
  *  
  *  # Unterstützter Tag
- *  Folgender HTML-Tag wird unterstützt:
+ *  Folgender HTML-Tag Struktus wird unterstützt:
  *  
- *  \code{.htm}
+ *  \code{.xml}
  *  <img data-v-25439cc6="" src="/assets/svg/emoji/happy.svg" style="display: inline-block;" width="80" height="auto">
  *  \endcode
  * 
- * \note
- * Entscheidend ist der Wert des Attributes `src`. Dieser kann mit folgenden Werten enden:
+ * \par Hinweis:
+ * Entscheidend ist der Wert des Attributes `src`. Implementiert/erlaubt sind folgende Werte:
  *  - `happy.svg`,
- *  - `funny.svg`g,
+ *  - `funny.svg`,
  *  - `surprised.svg`,
  *  - `cry.svg`,
  *  - `angry.svg`
@@ -29,8 +29,8 @@ import okw.gui.adapter.selenium.SeImage;
  * 
  * # VUE Code
  *  Folgender VUE-Tag wird unterstützt:
-
- *  \code{.htm}
+ *
+ *  \code{.xml}
  *  <button data-v-bce39362="" class="button is-primary">Caption des hcButtonWithCountLabel
  *       <span data-v-f73ffc22="" class="count" data-v-bce39362="">10</span>
  *  </button>
