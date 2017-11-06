@@ -9,10 +9,17 @@ import okw.gui.adapter.selenium.SeImage;
  * @ingroup grouphcGuiAdapter 
  * 
  * \~german
- *  Diese Klasse representiert einen `hc-imoji` Image. Dieser wird mit Selenium angsteuert wird und ist von der Klasse SeImage abgeleitet.
+ * Klasse representiert einen `hc-imoji` Image @image html https://user-images.githubusercontent.com/15831418/32339463-2098a0f0-bff8-11e7-8c28-7187bc701624.png. Dieser wird mit Selenium angsteuert wird und ist von der Klasse SeImage abgeleitet.
+ *  
+ * @image html https://user-images.githubusercontent.com/15831418/32339463-2098a0f0-bff8-11e7-8c28-7187bc701624.png
+ * @image html https://user-images.githubusercontent.com/15831418/32339454-18226500-bff8-11e7-856b-189d5924b5ec.png
+ * @image html https://user-images.githubusercontent.com/15831418/32339480-2c2f8ec4-bff8-11e7-8b29-93e0fb6d8e35.png
+ * @image html https://user-images.githubusercontent.com/15831418/32339440-10706ce4-bff8-11e7-9b64-40c9e62ba576.png
+ * @image html https://user-images.githubusercontent.com/15831418/32339373-eed1259c-bff7-11e7-991e-15396e3052b2.png
+ * @image html https://user-images.githubusercontent.com/15831418/32339373-eed1259c-bff7-11e7-991e-15396e3052b2.png
  *  
  *  # Unterstützter Tag
- *  Folgender HTML-Tag Struktus wird unterstützt:
+ *  Folgender HTML-Tag Struktur wird unterstützt:
  *  
  *  \code{.xml}
  *  <img data-v-25439cc6="" src="/assets/svg/emoji/happy.svg" style="display: inline-block;" width="80" height="auto">
