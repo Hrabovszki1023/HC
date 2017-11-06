@@ -1,5 +1,5 @@
 <map id="okw.gui.frames.hc.HC_Introduction" name="okw.gui.frames.hc.HC_Introduction">
 <area shape="rect" id="node3" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji.html" title="Diese Klasse representiert einen hc&#45;imoji Image. " alt="" coords="145,314,351,435"/>
-<area shape="rect" id="node5" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html" title="Diese Klasse representiert einen Button mit hc&#45;count&#45;label " alt="" coords="375,307,581,443"/>
+<area shape="rect" id="node5" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html" title="{okw.gui.adapter.selenium.hc.hc\lButtonWithCountLabel\n||+ hcButtonWithCountLabel()\l+ hcButtonWithCountLabel()\l+ getLabel()\l+ getCaption()\l}" alt="" coords="375,307,581,443"/>
 <area shape="rect" id="node6" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html" title="{okw.gui.adapter.selenium.hc.hc\lButton\n||+ hcButton()\l+ hcButton()\l+ getCaption()\l}" alt="" coords="375,134,581,255"/>
 </map>
