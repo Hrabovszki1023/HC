@@ -11,7 +11,8 @@ var hierarchy =
       [ "hc.testcases.hcEmoji.hcEmoji_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html", null ]
     ] ],
     [ "SeBrowserChild", null, [
-      [ "okw.gui.frames.hc.HC_Introduction", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html", null ]
+      [ "okw.gui.frames.hc.HC_Introduction", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html", null ],
+      [ "okw.gui.frames.hc.hcLogin", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html", null ]
     ] ],
     [ "SeButton", null, [
       [ "okw.gui.adapter.selenium.hc.hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html", [

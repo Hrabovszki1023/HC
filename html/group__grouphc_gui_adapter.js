@@ -1,8 +1,8 @@
 var group__grouphc_gui_adapter =
 [
     [ "hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html", [
-      [ "hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html#abc01f25cb33bf07cdcd04582fb3532b1", null ],
-      [ "hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html#a4726e997fffe44452cbf685f152d29f4", null ],
+      [ "hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html#a4dab1b7e27b36443bef4fcce5377069f", null ],
+      [ "hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html#a826d5380864c3006f31597f07af70e8f", null ],
       [ "getCaption", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html#a565023e9483355e93c9805e9e0d81adf", null ]
     ] ],
     [ "hcButtonWithCountLabel", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html", [

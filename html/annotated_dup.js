@@ -29,7 +29,8 @@ var annotated_dup =
         ] ],
         [ "frames", null, [
           [ "hc", null, [
-            [ "HC_Introduction", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction" ]
+            [ "HC_Introduction", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction" ],
+            [ "hcLogin", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login" ]
           ] ]
         ] ]
       ] ]
