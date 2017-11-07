@@ -3,7 +3,9 @@
 
 \defgroup grouphcGuiAdapter GUI-Adapter
 
-\defgroup grouphcGuiContainer GUI-Container
+\defgroup grouphcGuiContainer GUI-Kontainer
+
+\defgroup grouphcGuiSequences GUI-Sequenzen
 
 \defgroup grouphcGuiFrames GUI-Frames
 

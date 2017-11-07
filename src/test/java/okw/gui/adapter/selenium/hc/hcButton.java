@@ -11,12 +11,12 @@ import okw.gui.adapter.selenium.SeButton;
 public class hcButton extends SeButton
 {
 
-    public hcButton( String IframeID, String Locator, OKWLocator[] Locators )
+    public hcButton( String IframeID, String Locator, OKWLocator... Locators )
     {
         super( IframeID, Locator, Locators );
     }
 
-    public hcButton( String Locator, OKWLocator[] Locators )
+    public hcButton( String Locator, OKWLocator... Locators )
     {
         super( Locator, Locators );
     }
