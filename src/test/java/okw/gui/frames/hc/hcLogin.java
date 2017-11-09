@@ -9,6 +9,8 @@ import okw.gui.adapter.selenium.hc.*;
  * @ingroup grouphcGuiFrames
  * Klasse representiert den Login-Dialog von [Human Connection](https://www.humanconnection.org/login)
  * 
+ * \image html hcLogin/hcLogin.png
+ * 
  */
 @OKW(FN = "HC Login")
 public class hcLogin extends SeBrowserChild
@@ -17,13 +19,13 @@ public class hcLogin extends SeBrowserChild
      * User-Eingabefeld.
      */
     @OKW( FN = "User" )
-    public SeInputText User = new SeInputText( "" );
+    public SeInputText User = new SeInputText( "//input[@placeholder='Email']" );
 
     /**
      * Passwort-Eingabefeld.
      */
     @OKW( FN = "Password" )
-    public SeInputText Password = new SeInputText( "" );
+    public SeInputText Password = new SeInputText( "//input[@placeholder='Email']" );
 
     /**
      * Login Button zum Anmelden in HC
@@ -37,7 +39,7 @@ public class hcLogin extends SeBrowserChild
     }
     
     /**
-     *  * @ingroup grouphcGuiSequences
+     *  * @ingroup grouphcGuiSequences 
      *  Sequenz führt eine valide Anmeldung in HC durch. 
      */
     public void Sequens_Login( String SEQ_ID ) throws Exception
