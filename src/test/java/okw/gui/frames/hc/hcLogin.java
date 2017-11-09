@@ -9,6 +9,8 @@ import okw.gui.adapter.selenium.hc.*;
  * @ingroup grouphcGuiFrames
  * Klasse representiert den Login-Dialog von [Human Connection](https://www.humanconnection.org/login)
  * 
+ * # Login Dialog
+ * 
  * \image html hcLogin/hcLogin.png
  * 
  */
