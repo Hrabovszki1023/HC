@@ -30,14 +30,41 @@ public class hcLogin extends SeBrowserChild
     public SeInputText Password = new SeInputText( "//input[@placeholder='Email']" );
 
     /**
-     * Login Button zum Anmelden in HC
+     * Login Button zur Anmeldung in HC
      */
     @OKW( FN = "Login" )
-    public hcButton HCCountLabel = new hcButton( "" );
+    public hcButton Login = new hcButton( "//input[@placeholder='Email']" );
+    
+    /**
+     * Link zum Anlegen eines neuen Kontos.
+     * @code
+     * <a data-v-690c0af3=""
+     *    href="/auth/register"
+     *    class="card-footer-item"
+     *   >Noch kein Konto?</a>
+     * @endcode
+     */
+    @OKW( FN = "Noch kein Konto?" )
+    public hcLink NochKeinKonto = new hcLink( "//input[@innerText='Noch kein Konto?']" );
+
+    
+    /**
+     * Link zum "Passwort reset".
+     * 
+     * @code
+     * <a data-v-690c0af3="" href="#" class="card-footer-item is-disabled disabled" style="cursor: not-allowed;">
+     *   Passwort vergessen?
+     * </a>
+     * @endcode
+     */
+    @OKW( FN = "Passwort vergessen?" )
+    public hcButton PasswortVergessen = new hcButton( "//input[@innerText='Passwort vergessen?']" );
+
+    
     
     public hcLogin()
     {
-        setLocator( "//title[text()='HC Style Guide']/../.." );
+        setLocator( "//div[@class='card']" );
     }
     
     /**
