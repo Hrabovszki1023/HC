@@ -1,3 +1,4 @@
 <map id="okw.gui.frames.hc.hcLogin" name="okw.gui.frames.hc.hcLogin">
 <area shape="rect" id="node3" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html" title="{okw.gui.adapter.selenium.hc.hc\lButton\n||+ hcButton()\l+ hcButton()\l+ getCaption()\l}" alt="" coords="145,134,351,255"/>
+<area shape="rect" id="node5" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html" title="{okw.gui.adapter.selenium.hc.hcLink\n||+ hcLink()\l+ hcLink()\l+ getCaption()\l}" alt="" coords="375,141,605,248"/>
 </map>

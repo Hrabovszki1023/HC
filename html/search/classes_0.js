@@ -12,5 +12,6 @@ var searchData=
   ['hcemoji_5ffirefox_5ftest',['hcEmoji_Firefox_Test',['../classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___firefox___test.html',1,'hc::testcases::hcEmoji']]],
   ['hcemoji_5fhtmlunitdriver_5ftest',['hcEmoji_HTMLUnitDriver_Test',['../classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html',1,'hc::testcases::hcEmoji']]],
   ['hcemoji_5ftest',['hcEmoji_Test',['../classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html',1,'hc::testcases::hcEmoji']]],
+  ['hclink',['hcLink',['../classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html',1,'okw::gui::adapter::selenium::hc']]],
   ['hclogin',['hcLogin',['../classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html',1,'okw::gui::frames::hc']]]
 ];

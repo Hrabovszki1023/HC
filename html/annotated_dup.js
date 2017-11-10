@@ -23,7 +23,8 @@ var annotated_dup =
             [ "hc", null, [
               [ "hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button" ],
               [ "hcButtonWithCountLabel", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label" ],
-              [ "hcEmoji", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji" ]
+              [ "hcEmoji", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji" ],
+              [ "hcLink", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link" ]
             ] ]
           ] ]
         ] ],

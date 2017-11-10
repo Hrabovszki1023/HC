@@ -17,7 +17,8 @@ var hierarchy =
     [ "SeButton", null, [
       [ "okw.gui.adapter.selenium.hc.hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html", [
         [ "okw.gui.adapter.selenium.hc.hcButtonWithCountLabel", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html", null ]
-      ] ]
+      ] ],
+      [ "okw.gui.adapter.selenium.hc.hcLink", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html", null ]
     ] ],
     [ "SeImage", null, [
       [ "okw.gui.adapter.selenium.hc.hcEmoji", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji.html", null ]
