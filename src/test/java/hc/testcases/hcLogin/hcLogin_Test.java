@@ -1,4 +1,4 @@
-package hc.testcases.hcEmoji;
+package hc.testcases.hcLogin;
 
 import org.junit.Ignore;
 import org.junit.Rule;
@@ -18,7 +18,7 @@ import okw.core.EN;
 *  @date 2017-11-04
 */
 @Ignore
-public class hcEmoji_Test
+public class hcLogin_Test
 {
     OKW_Memorize_Sngltn     myMem = OKW_Memorize_Sngltn.getInstance();
 
@@ -43,16 +43,10 @@ public class hcEmoji_Test
     {
       EN.BeginTest( name.getMethodName() );
       EN.StartApp( ApplicationName );
-      EN.SetValue( "URL", "http://localhost:6060/#hc-count-label" );
+      EN.SetValue( "URL", "http://165.227.153.233" );
       
-      EN.SelectWindow( "HC Introduction" );
+      EN.SelectWindow( "HC Welcome" );
 
-      EN.VerifyValue( "HC Emoji Beispiel 1", "happy" );
-      EN.VerifyValue( "HC Emoji Beispiel 2", "funny" );
-      EN.VerifyValue( "HC Emoji Beispiel 3", "surprised" );
-      EN.VerifyValue( "HC Emoji Beispiel 4", "cry" );
-      EN.VerifyValue( "HC Emoji Beispiel 5", "angry" );
-      
       EN.StopApp( ApplicationName );
       EN.EndTest();
     }

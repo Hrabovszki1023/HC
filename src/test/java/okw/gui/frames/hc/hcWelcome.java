@@ -1,0 +1,25 @@
+package okw.gui.frames.hc;
+
+import okw.OKW;
+import okw.gui.adapter.selenium.*;
+import okw.gui.container.hc.hcHead;
+
+/**
+ * @ingroup grouphcGuiFrames
+ * Frame-Klasse representiert die 'Welcome - Human Connection'-Seite von [Human Connection](https://www.humanconnection.org/login)
+ * 
+ */
+@OKW(FN = "HC Login")
+public class hcWelcome extends SeBrowserChild
+{
+
+    /**
+     * Kontainer-Klasse okw.gui.container.hc.hcHead - bindet den HC-Header auf dieser Seite ein.
+     */
+    public hcHead myHeader = new hcHead("", this.locator);
+    
+    public hcWelcome()
+    {
+        setLocator( "//title[@class='Welcome - Human Connection']" );
+    }    
+}
