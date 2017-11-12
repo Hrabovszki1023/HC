@@ -1,4 +1,4 @@
-package hc.testcases.hcButtonWithCountLabel;
+package hc.testcases.hcguicomponent.hcButtonWithCountLabel;
 
 import org.junit.*;
 import org.junit.rules.TestName;

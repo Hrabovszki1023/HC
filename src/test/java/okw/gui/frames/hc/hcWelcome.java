@@ -9,7 +9,7 @@ import okw.gui.container.hc.hcHead;
  * Frame-Klasse representiert die 'Welcome - Human Connection'-Seite von [Human Connection](https://www.humanconnection.org/login)
  * 
  */
-@OKW(FN = "HC Login")
+@OKW(FN = "HC Welcome")
 public class hcWelcome extends SeBrowserChild
 {
 
@@ -20,6 +20,6 @@ public class hcWelcome extends SeBrowserChild
     
     public hcWelcome()
     {
-        setLocator( "//title[@class='Welcome - Human Connection']" );
+        setLocator( "//title[text()='Welcome - Human Connection']/../.." );
     }    
 }

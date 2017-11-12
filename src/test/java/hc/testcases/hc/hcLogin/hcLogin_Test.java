@@ -1,4 +1,4 @@
-package hc.testcases.hcLogin;
+package hc.testcases.hc.hcLogin;
 
 import org.junit.Ignore;
 import org.junit.Rule;

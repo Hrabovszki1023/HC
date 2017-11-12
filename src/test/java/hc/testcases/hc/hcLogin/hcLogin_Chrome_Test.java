@@ -1,4 +1,4 @@
-package hc.testcases.hcEmoji;
+package hc.testcases.hc.hcLogin;
 
 import okw.log.Logger_Sngltn;
 import okw.log.log2html.Log2HTML;
@@ -13,7 +13,7 @@ import org.junit.BeforeClass;
 * 
 * @author zoltan
 */
-public class hcEmoji_Chrome_Test extends hcEmoji_Test
+public class hcLogin_Chrome_Test extends hcLogin_Test
 {
 	static Log2HTML myLog2HTML = null;
 
@@ -26,7 +26,7 @@ public class hcEmoji_Chrome_Test extends hcEmoji_Test
 		// Reset des Loggers: Alle geladenen Instanzen löschen
         Logger_Sngltn.init();
 
-        myLog2HTML = new Log2HTML("target/hcEmoji_Chrome_Test.html");
+        myLog2HTML = new Log2HTML("target/hcLogin_Chrome_Test.html");
         Logger_Sngltn.getInstance().addLogger(myLog2HTML);
         Logger_Sngltn.getInstance().setDebugMode(false);
 	}

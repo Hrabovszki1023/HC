@@ -1,4 +1,4 @@
-package hc.testcases.hcEmoji;
+package hc.testcases.hcguicomponent.hcEmoji;
 
 import org.junit.Ignore;
 import org.junit.Rule;

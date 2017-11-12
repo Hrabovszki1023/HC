@@ -17,8 +17,15 @@ import okw.gui.adapter.selenium.hc.*;
 @OKW(FN = "HC Login")
 public class hcLogin extends SeBrowserChild
 {
+    
     /**
-     * User-Eingabefeld.
+     * User-Eingabefeld als Email-Adresse.
+     */
+    @OKW( FN = "Schließen" )
+    public SeLink Close = new SeLink( "//a[@href='/' and @class='delete active-link']" );    
+    
+    /**
+     * User-Eingabefeld als Email-Adresse.
      */
     @OKW( FN = "User" )
     public SeInputText User = new SeInputText( "//input[@placeholder='Email']" );
@@ -27,13 +34,13 @@ public class hcLogin extends SeBrowserChild
      * Passwort-Eingabefeld.
      */
     @OKW( FN = "Password" )
-    public SeInputText Password = new SeInputText( "//input[@placeholder='Email']" );
+    public SeInputText Password = new SeInputText( "//input[@placeholder='Password']" );
 
     /**
      * Login Button zur Anmeldung in HC
      */
     @OKW( FN = "Login" )
-    public hcButton Login = new hcButton( "//input[@placeholder='Email']" );
+    public hcButton Login = new hcButton( "//button[contains(text(),'Login')]" );
     
     /**
      * Link zum Anlegen eines neuen Kontos.

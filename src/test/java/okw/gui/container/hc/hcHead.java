@@ -18,7 +18,7 @@ public class hcHead extends SeAnyChildWindow
      * \image html hcHead/Suchen.png
      */
     @OKW( FN = "Suchen" )
-    public SeInputText Search = new SeInputText( "//input[@placeholder='Suchen...']" );
+    public SeInputText Search = new SeInputText( "//input[@placeholder='Suchen ...']" );
 
     /**
      * Schaltfläche, um zum Anmelde-Dialog zu gelangen.
@@ -26,7 +26,7 @@ public class hcHead extends SeAnyChildWindow
      * \image html hcHead/LoginSignUp.png
      */
     @OKW( FN = "Login / Sign-Up" )
-    public SeLink Login = new SeLink( "//input[@placeholder='Email']" );
+    public SeLink Login = new SeLink( "//a[@href='/auth/login']" );
     
     public hcHead(String Locator, OKWLocator... Locators)
     {

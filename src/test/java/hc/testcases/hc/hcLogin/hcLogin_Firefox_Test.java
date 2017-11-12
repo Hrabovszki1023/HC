@@ -1,4 +1,4 @@
-package hc.testcases.hcButtonWithCountLabel;
+package hc.testcases.hc.hcLogin;
 
 import okw.log.Logger_Sngltn;
 import okw.log.log2html.Log2HTML;
@@ -11,7 +11,7 @@ import org.junit.*;
 * 
 * @author zoltan
 */
-public class hcButtonWithCountLabel_Firefox_Test extends hcButtonWithCountLabel_Test
+public class hcLogin_Firefox_Test extends hcLogin_Test
 {
 	static Log2HTML myLog2HTML = null;
 
@@ -24,7 +24,7 @@ public class hcButtonWithCountLabel_Firefox_Test extends hcButtonWithCountLabel_
 		// Reset des Loggers: Alle geladenen Instanzen löschen
         Logger_Sngltn.init();
 
-        myLog2HTML = new Log2HTML("target/hcButtonWithCountLabel_Firefox_Test.html");
+        myLog2HTML = new Log2HTML("target/hcLogin_Firefox_Test.html");
         Logger_Sngltn.getInstance().addLogger(myLog2HTML);
         Logger_Sngltn.getInstance().setDebugMode(false);
 	}
