@@ -1,6 +1,6 @@
 <map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
-<area shape="rect" id="node1" href="$classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html" title="Test&#45;Klasse zur Prüfung der Implementierung der Klasse okw.gui.adapter.selenium.hc.hcEmoji. " alt="" coords="6,77,234,104"/>
-<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test.html" title="hc.testcases.hcLogin.hcLogin\l_Chrome_Test" alt="" coords="283,5,477,46"/>
-<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test.html" title="hc.testcases.hcLogin.hcLogin\l_Firefox_Test" alt="" coords="283,70,477,111"/>
-<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hc_login_1_1hc_login___h_t_m_l_unit_driver___test.html" title="hc.testcases.hcLogin.hcLogin\l_HTMLUnitDriver_Test" alt="" coords="283,135,477,177"/>
+<area shape="rect" id="node1" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html" title="hc.testcases.hcguicomponent.hc\lButtonWithCountLabel.hcButtonWith\lCountLabel_Test" alt="" coords="6,85,242,141"/>
+<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___chrome___test.html" title="hc.testcases.hcguicomponent.hc\lButtonWithCountLabel.hcButtonWith\lCountLabel_Chrome_Test" alt="" coords="291,5,527,61"/>
+<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test.html" title="hc.testcases.hcguicomponent.hc\lButtonWithCountLabel.hcButtonWith\lCountLabel_Firefox_Test" alt="" coords="291,85,527,141"/>
+<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___h_t_m_l_unit_driver___test.html" title="hc.testcases.hcguicomponent.hc\lButtonWithCountLabel.hcButtonWith\lCountLabel_HTMLUnitDriver_Test" alt="" coords="291,165,527,221"/>
 </map>

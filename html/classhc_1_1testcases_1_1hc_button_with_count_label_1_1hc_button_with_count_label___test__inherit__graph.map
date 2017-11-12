@@ -1,5 +1,0 @@
-<map id="hc.testcases.hcButtonWithCountLabel.hcButtonWithCountLabel_Test" name="hc.testcases.hcButtonWithCountLabel.hcButtonWithCountLabel_Test">
-<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___chrome___test.html" title="{hc.testcases.hcButtonWith\lCountLabel.hcButtonWithCountLabel\l_Chrome_Test\n|~ myLog2HTML\l|+ FirefoxAfter()\l+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="5,205,241,341"/>
-<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test.html" title="{hc.testcases.hcButtonWith\lCountLabel.hcButtonWithCountLabel\l_Firefox_Test\n|~ myLog2HTML\l|+ FirefoxAfter()\l+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="267,205,503,341"/>
-<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___h_t_m_l_unit_driver___test.html" title="{hc.testcases.hcButtonWith\lCountLabel.hcButtonWithCountLabel\l_HTMLUnitDriver_Test\n|~ myLog2HTML\l|+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="528,213,764,334"/>
-</map>

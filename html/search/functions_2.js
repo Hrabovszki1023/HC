@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['tclogexists',['tcLogExists',['../classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html#a117ecbdecec3ad3470d77b0077dde9b5',1,'hc.testcases.hcEmoji.hcEmoji_Test.tcLogExists()'],['../classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html#adb5d9ecafcb50ed0aa4f1c67d2495015',1,'hc.testcases.hcLogin.hcLogin_Test.tcLogExists()']]],
-  ['tcverifycaption',['tcVerifyCaption',['../classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html#a33b45fba77a5661e6af5ee1fc41f5eef',1,'hc::testcases::hcButtonWithCountLabel::hcButtonWithCountLabel_Test']]],
-  ['tcverifyexists',['tcVerifyExists',['../classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html#a3cf4f2f0a658a53d20e9b20c05ada2c1',1,'hc::testcases::hcButtonWithCountLabel::hcButtonWithCountLabel_Test']]],
-  ['tcverifylabel',['tcVerifyLabel',['../classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html#ab6467c0e8b84dd45929a17f850d8a821',1,'hc::testcases::hcButtonWithCountLabel::hcButtonWithCountLabel_Test']]]
+  ['tclogexists',['tcLogExists',['../classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___test.html#a68bd0b51f85c81cd87df641366029482',1,'hc.testcases.hc.hcLogin.hcLogin_Test.tcLogExists()'],['../classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___test.html#aa25de7cfe97e94e4b15279dfb5640619',1,'hc.testcases.hcguicomponent.hcEmoji.hcEmoji_Test.tcLogExists()']]],
+  ['tcverifycaption',['tcVerifyCaption',['../classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html#aa46ebbaa65eae26e35cf6accabe992af',1,'hc::testcases::hcguicomponent::hcButtonWithCountLabel::hcButtonWithCountLabel_Test']]],
+  ['tcverifyexists',['tcVerifyExists',['../classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html#aa45ca7648defca20f1ef3ff97626cbdc',1,'hc::testcases::hcguicomponent::hcButtonWithCountLabel::hcButtonWithCountLabel_Test']]],
+  ['tcverifylabel',['tcVerifyLabel',['../classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html#a74bedb303a3e600d59c90bb0a8edbfe6',1,'hc::testcases::hcguicomponent::hcButtonWithCountLabel::hcButtonWithCountLabel_Test']]],
+  ['tcwelcomeallguikomponents',['tcWelcomeAllGuiKomponents',['../classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___test.html#afc2d1a076fc92c00dcd2942d6fac9ba8',1,'hc::testcases::hc::hcWelcome::hcWelcome_Test']]]
 ];

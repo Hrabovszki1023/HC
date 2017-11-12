@@ -1,0 +1,5 @@
+<map id="hc.testcases.hcguicomponent.hcEmoji.hcEmoji_Test" name="hc.testcases.hcguicomponent.hcEmoji.hcEmoji_Test">
+<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___chrome___test.html" title="{hc.testcases.hcguicomponent.hc\lEmoji.hcEmoji_Chrome_Test\n|~ myLog2HTML\l|+ FirefoxAfter()\l+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="5,177,219,298"/>
+<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___firefox___test.html" title="{hc.testcases.hcguicomponent.hc\lEmoji.hcEmoji_Firefox_Test\n|~ myLog2HTML\l|+ FirefoxAfter()\l+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="243,177,457,298"/>
+<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html" title="{hc.testcases.hcguicomponent.hc\lEmoji.hcEmoji_HTMLUnitDriver_Test\n|~ myLog2HTML\l|+ setUpBeforeClass()\l+ tearDownAfterClass()\l}" alt="" coords="482,184,723,291"/>
+</map>

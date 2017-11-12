@@ -1,4 +1,0 @@
-var classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test =
-[
-    [ "FirefoxAfter", "classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test.html#a7001044fa649b8a994b8e407be104c44", null ]
-];

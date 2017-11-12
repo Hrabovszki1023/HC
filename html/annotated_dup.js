@@ -2,23 +2,33 @@ var annotated_dup =
 [
     [ "hc", null, [
       [ "testcases", null, [
-        [ "hcButtonWithCountLabel", null, [
-          [ "hcButtonWithCountLabel_Chrome_Test", "classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___chrome___test.html", "classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___chrome___test" ],
-          [ "hcButtonWithCountLabel_Firefox_Test", "classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test.html", "classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test" ],
-          [ "hcButtonWithCountLabel_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___h_t_m_l_unit_driver___test.html", null ],
-          [ "hcButtonWithCountLabel_Test", "classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html", "classhc_1_1testcases_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test" ]
+        [ "hc", null, [
+          [ "hcLogin", null, [
+            [ "hcLogin_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___chrome___test.html", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___chrome___test" ],
+            [ "hcLogin_Firefox_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___firefox___test.html", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___firefox___test" ],
+            [ "hcLogin_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___h_t_m_l_unit_driver___test.html", null ],
+            [ "hcLogin_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___test.html", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___test" ]
+          ] ],
+          [ "hcWelcome", null, [
+            [ "hcWelcome_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___chrome___test.html", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___chrome___test" ],
+            [ "hcWelcome_Firefox_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___firefox___test.html", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___firefox___test" ],
+            [ "hcWelcome_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___h_t_m_l_unit_driver___test.html", null ],
+            [ "hcWelcome_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___test.html", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___test" ]
+          ] ]
         ] ],
-        [ "hcEmoji", null, [
-          [ "hcEmoji_Chrome_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___chrome___test.html", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___chrome___test" ],
-          [ "hcEmoji_Firefox_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___firefox___test.html", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___firefox___test" ],
-          [ "hcEmoji_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html", null ],
-          [ "hcEmoji_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test" ]
-        ] ],
-        [ "hcLogin", null, [
-          [ "hcLogin_Chrome_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test.html", "classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test" ],
-          [ "hcLogin_Firefox_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test.html", "classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test" ],
-          [ "hcLogin_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___h_t_m_l_unit_driver___test.html", null ],
-          [ "hcLogin_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test" ]
+        [ "hcguicomponent", null, [
+          [ "hcButtonWithCountLabel", null, [
+            [ "hcButtonWithCountLabel_Chrome_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___chrome___test.html", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___chrome___test" ],
+            [ "hcButtonWithCountLabel_Firefox_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test.html", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test" ],
+            [ "hcButtonWithCountLabel_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___h_t_m_l_unit_driver___test.html", null ],
+            [ "hcButtonWithCountLabel_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test" ]
+          ] ],
+          [ "hcEmoji", null, [
+            [ "hcEmoji_Chrome_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___chrome___test.html", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___chrome___test" ],
+            [ "hcEmoji_Firefox_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___firefox___test.html", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___firefox___test" ],
+            [ "hcEmoji_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html", null ],
+            [ "hcEmoji_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___test.html", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___test" ]
+          ] ]
         ] ]
       ] ]
     ] ],
