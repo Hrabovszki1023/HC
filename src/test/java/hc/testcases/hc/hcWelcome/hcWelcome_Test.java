@@ -41,7 +41,7 @@ public class hcWelcome_Test
       EN.BeginTest( name.getMethodName() );
       EN.StartApp( ApplicationName ); // ApplicationName is in this case "Firefox" or "Chrome"
       
-      // TODO -> Define Enviroment War for Base URL
+      // TODO -> Define Enviroment var for HC URL
       EN.SetValue( "URL", "http://165.227.153.233" );
       
       EN.SelectWindow( "HC Welcome" );
