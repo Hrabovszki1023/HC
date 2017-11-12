@@ -13,6 +13,12 @@ var annotated_dup =
           [ "hcEmoji_Firefox_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___firefox___test.html", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___firefox___test" ],
           [ "hcEmoji_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html", null ],
           [ "hcEmoji_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test" ]
+        ] ],
+        [ "hcLogin", null, [
+          [ "hcLogin_Chrome_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test.html", "classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test" ],
+          [ "hcLogin_Firefox_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test.html", "classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test" ],
+          [ "hcLogin_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___h_t_m_l_unit_driver___test.html", null ],
+          [ "hcLogin_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test" ]
         ] ]
       ] ]
     ] ],
@@ -28,10 +34,16 @@ var annotated_dup =
             ] ]
           ] ]
         ] ],
+        [ "container", null, [
+          [ "hc", null, [
+            [ "hcHead", "classokw_1_1gui_1_1container_1_1hc_1_1hc_head.html", "classokw_1_1gui_1_1container_1_1hc_1_1hc_head" ]
+          ] ]
+        ] ],
         [ "frames", null, [
           [ "hc", null, [
             [ "HC_Introduction", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction" ],
-            [ "hcLogin", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login" ]
+            [ "hcLogin", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login" ],
+            [ "hcWelcome", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome.html", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome" ]
           ] ]
         ] ]
       ] ]

@@ -10,9 +10,18 @@ var hierarchy =
       [ "hc.testcases.hcEmoji.hcEmoji_Firefox_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___firefox___test.html", null ],
       [ "hc.testcases.hcEmoji.hcEmoji_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html", null ]
     ] ],
+    [ "hc.testcases.hcLogin.hcLogin_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html", [
+      [ "hc.testcases.hcLogin.hcLogin_Chrome_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test.html", null ],
+      [ "hc.testcases.hcLogin.hcLogin_Firefox_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test.html", null ],
+      [ "hc.testcases.hcLogin.hcLogin_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___h_t_m_l_unit_driver___test.html", null ]
+    ] ],
+    [ "SeAnyChildWindow", null, [
+      [ "okw.gui.container.hc.hcHead", "classokw_1_1gui_1_1container_1_1hc_1_1hc_head.html", null ]
+    ] ],
     [ "SeBrowserChild", null, [
       [ "okw.gui.frames.hc.HC_Introduction", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html", null ],
-      [ "okw.gui.frames.hc.hcLogin", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html", null ]
+      [ "okw.gui.frames.hc.hcLogin", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html", null ],
+      [ "okw.gui.frames.hc.hcWelcome", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome.html", null ]
     ] ],
     [ "SeButton", null, [
       [ "okw.gui.adapter.selenium.hc.hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html", [

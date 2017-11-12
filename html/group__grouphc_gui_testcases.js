@@ -25,5 +25,17 @@ var group__grouphc_gui_testcases =
       [ "tcLogExists", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html#a117ecbdecec3ad3470d77b0077dde9b5", null ],
       [ "myMem", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html#a218605edba8e57efb463ee1903c5333f", null ],
       [ "name", "classhc_1_1testcases_1_1hc_emoji_1_1hc_emoji___test.html#a0ae5e291e06f254239c9ee6320ea9dc5", null ]
+    ] ],
+    [ "hcLogin_Chrome_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test.html", [
+      [ "FirefoxAfter", "classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test.html#a4d336fb9331658c149e89d5d2900dbd9", null ]
+    ] ],
+    [ "hcLogin_Firefox_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test.html", [
+      [ "FirefoxAfter", "classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test.html#ae658ccfab28cce97f425f2d2530722c0", null ]
+    ] ],
+    [ "hcLogin_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___h_t_m_l_unit_driver___test.html", null ],
+    [ "hcLogin_Test", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html", [
+      [ "tcLogExists", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html#adb5d9ecafcb50ed0aa4f1c67d2495015", null ],
+      [ "myMem", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html#a97d1ca3b3791e42f4f83cda67439cd50", null ],
+      [ "name", "classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html#a9035a9d99659a50d6c093365789556ea", null ]
     ] ]
 ];

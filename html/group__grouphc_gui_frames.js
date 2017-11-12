@@ -17,5 +17,9 @@ var group__grouphc_gui_frames =
       [ "Password", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html#a8ee32e7faba25e3695448bad23cf5aa2", null ],
       [ "PasswortVergessen", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html#aee9631a05e300fe622ad112a0f01b2d0", null ],
       [ "User", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html#a087bb00c536bb6475d7476678b8fb41f", null ]
+    ] ],
+    [ "hcWelcome", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome.html", [
+      [ "hcWelcome", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome.html#ae39bbc59691acc31935d593edee23f3c", null ],
+      [ "myHeader", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome.html#a600dd0501b337a67f5690e38c88b9301", null ]
     ] ]
 ];

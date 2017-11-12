@@ -1,5 +1,6 @@
 <map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
-<area shape="rect" id="node2" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html" title="okw.gui.adapter.selenium.hc.hc\lButton" alt="" coords="143,5,350,46"/>
-<area shape="rect" id="node4" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html" title="okw.gui.adapter.selenium.hc.hcLink" alt="" coords="131,71,362,97"/>
-<area shape="rect" id="node3" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html" title="Klasse representiert einen Button mit hc&#45;count&#45;label. " alt="" coords="411,5,618,46"/>
+<area shape="rect" id="node1" href="$classhc_1_1testcases_1_1hc_login_1_1hc_login___test.html" title="Test&#45;Klasse zur Prüfung der Implementierung der Klasse okw.gui.adapter.selenium.hc.hcEmoji. " alt="" coords="6,77,234,104"/>
+<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hc_login_1_1hc_login___chrome___test.html" title="hc.testcases.hcLogin.hcLogin\l_Chrome_Test" alt="" coords="283,5,477,46"/>
+<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hc_login_1_1hc_login___firefox___test.html" title="hc.testcases.hcLogin.hcLogin\l_Firefox_Test" alt="" coords="283,70,477,111"/>
+<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hc_login_1_1hc_login___h_t_m_l_unit_driver___test.html" title="hc.testcases.hcLogin.hcLogin\l_HTMLUnitDriver_Test" alt="" coords="283,135,477,177"/>
 </map>
