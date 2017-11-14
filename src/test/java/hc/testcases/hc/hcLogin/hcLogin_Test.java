@@ -46,7 +46,7 @@ public class hcLogin_Test
       EN.SetValue( "URL", "http://165.227.153.233" );
       
       EN.SelectWindow( "HC Welcome" );
-      EN.Click("Sign in")
+      EN.ClickOn("Sign in");
 
       EN.StopApp( ApplicationName );
       EN.EndTest();
@@ -69,9 +69,9 @@ public class hcLogin_Test
       
       // Login mit validen Daten
       EN.SelectWindow( "HC Welcome" );
-      EN.SetValue( "Email", "test@abcd.de" )
-      EN.SetValue( "Password", "Geheim" )
-      EN.Click( "Login" )
+      EN.SetValue( "Email", "test@abcd.de" );
+      EN.SetValue( "Password", "Geheim" );
+      EN.ClickOn( "Login" );
 
       EN.SelectWindow( "HC MainWindow" );
       EN.VerifyExists( "Charakteristisches GUI Elemnt der Haupmaske", "JA" );
@@ -98,16 +98,16 @@ public class hcLogin_Test
       
       // Login Dialog mit invalidem User
       EN.SelectWindow( "HC Welcome" );
-      EN.SetValue( "Email", "Uschi" )
-      EN.SetValue( "Password", "Geheim" )
-      EN.Click( "Login" )
+      EN.SetValue( "Email", "Uschi" );
+      EN.SetValue( "Password", "Geheim" );
+      EN.ClickOn( "Login" );
       EN.VerifyExists( "Fehlermeldung ", "JA" );
       
       //@TODO TODO: Hier die _richtige_ Fehlermeldung eingeben?
       EN.VerifyValue( "Fehlermeldung ", "??????" );
 
       // Haupt Fenster darf nicht erscheinen
-      EN.VerifyWindowExists( "HC MainWindow", "NO" );
+      EN.VerifyExists( "HC MainWindow", "NO" );
       
       EN.StopApp( ApplicationName );
       EN.EndTest();
