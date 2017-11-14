@@ -46,9 +46,37 @@ public class hcLogin_Test
       EN.SetValue( "URL", "http://165.227.153.233" );
       
       EN.SelectWindow( "HC Welcome" );
+      EN.Click("Sign in")
 
       EN.StopApp( ApplicationName );
       EN.EndTest();
     }
+  
+    /**
+     * \~german
+     * Prüft, ob ein Valide Anmeldung möglich ist.
+	 * @TODO TODO: Welche GUI folg nach dem Login? - Auf diese muss geprüft werden.
+     *  \~
+     *  @author Zoltán Hrabovszki
+     *  @date 2017-11-04
+     */ 
+    @Test
+    public void tcLoginValidUser() throws Exception
+    {
+      EN.BeginTest( name.getMethodName() );
+      EN.StartApp( ApplicationName );
+      EN.SetValue( "URL", "http://165.227.153.233" );
+      
+      // Login mit validen Daten
+      EN.SelectWindow( "HC Welcome" );
+      EN.SetValue( "Email", "test@abcd.de" )
+      EN.SetValue( "Password", "Geheim" )
+      EN.Click( "Login" )
 
+      EN.SelectWindow( "HC MainWindow" );
+      EN.VerifyExists( "Charakteristisches GUI Elemnt der Haupmaske", "JA" );
+      
+      EN.StopApp( ApplicationName );
+      EN.EndTest();
+    }
 }
