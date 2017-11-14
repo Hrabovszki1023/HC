@@ -54,11 +54,11 @@ public class hcLogin_Test
   
     /**
      * \~german
-     * Prüft, ob ein Valide Anmeldung möglich ist.
+     * Prüft, ob eine valide Anmeldung möglich ist.
 	 * @TODO TODO: Welche GUI folg nach dem Login? - Auf diese muss geprüft werden.
      *  \~
      *  @author Zoltán Hrabovszki
-     *  @date 2017-11-04
+     *  @date 2017-11-14
      */ 
     @Test
     public void tcLoginValidUser() throws Exception
@@ -75,6 +75,39 @@ public class hcLogin_Test
 
       EN.SelectWindow( "HC MainWindow" );
       EN.VerifyExists( "Charakteristisches GUI Elemnt der Haupmaske", "JA" );
+      
+      EN.StopApp( ApplicationName );
+      EN.EndTest();
+    }
+  
+  /**
+     * \~german
+     * Prüft, ob die Fehlemeldung "???" erscheint wenn ein User im falschen format eingegeben wird.
+     * @TODO TODO: Welche Fehlermeldung soll hier ausgegeben werden?
+     * 
+     *  \~
+     *  @author Zoltán Hrabovszki
+     *  @date 2017-11-14
+     */ 
+    @Test
+    public void tcLoginInvalidUser() throws Exception
+    {
+      EN.BeginTest( name.getMethodName() );
+      EN.StartApp( ApplicationName );
+      EN.SetValue( "URL", "http://165.227.153.233" );
+      
+      // Login Dialog mit invalidem User
+      EN.SelectWindow( "HC Welcome" );
+      EN.SetValue( "Email", "Uschi" )
+      EN.SetValue( "Password", "Geheim" )
+      EN.Click( "Login" )
+      EN.VerifyExists( "Fehlermeldung ", "JA" );
+      
+      //@TODO TODO: Hier die _richtige_ Fehlermeldung eingeben?
+      EN.VerifyValue( "Fehlermeldung ", "??????" );
+
+      // Haupt Fenster darf nicht erscheinen
+      EN.VerifyWindowExists( "HC MainWindow", "NO" );
       
       EN.StopApp( ApplicationName );
       EN.EndTest();
