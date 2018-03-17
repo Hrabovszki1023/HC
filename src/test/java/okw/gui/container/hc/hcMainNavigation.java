@@ -12,12 +12,17 @@ import okw.gui.adapter.selenium.*;
  * 
  * \image html hcHead/hc-navbar.png
  * 
- * - Logo: hcMainNavigation.navBarBrand
- * - Suchen: hcMainNavigation.navSearch
- * - Filter: hcMainNavigation.navBarFilter
- * - Sprache: hcMainNavigation.navBarLanguage
- * - Benachrichtigung: hcMainNavigation.navBarNotifications
- * - Benutzer: hcMainNavigation.navbarUserMenu
+ * FB | GUI-Adapter  | Bild
+ * ------------- | ------------- | -------------
+ *  "Logo" | hcMainNavigation.navBarBrand | \image html hcHead/hc-navbar-brand.png
+ *  "Suchen" | hcMainNavigation.navBarSearch | \image html hcHead/hc-navbar-search.png
+ *  "Filter" | hcMainNavigation.navBarFilter | \image html hcHead/hc-navbar-filter.png
+ *  "Sprache" | hcMainNavigation.navBarLanguage | \image html hcHead/hc-navbar-language.png
+ *  "Benachrichtigung" | hcMainNavigation.navBarNotifications | \image html hcHead/hc-navbar-notifications.png
+ *  "Benutzer" | hcMainNavigation.navbarUserMenu | \image html hcHead/hc-navbar-user-menu.png
+ * \~
+ * @author Zoltán Hrabovszki
+ * @date 2018-03-17
  */
 public class hcMainNavigation extends SeAnyChildWindow
 {
@@ -27,15 +32,21 @@ public class hcMainNavigation extends SeAnyChildWindow
      * \image html hcHead/hc-navbar-brand.png
      * 
      * \TODO TODO: Greg: Das Logo in der "Main Navigation" benötigt eine eindeutige ID.
+     * \~
+     * @author Zoltán Hrabovszki
+     * @date 2018-03-17
      */
     @OKW( FN = "Logo" )
-    public SeInputText navbarBrand = new SeInputText( "//div[@class='hc-navbar-item hc-navbar-brand']" );
+    public SeInputText navBarBrand = new SeInputText( "//div[@class='hc-navbar-item hc-navbar-brand']" );
 
     /**
      * Eingabefeld "Suchen..."
      * 
      * \image html hcHead/hc-navbar-search.png
      * \TODO TODO: Greg: Das Suchfeld in der "Main Navigation" benötigt eine eindeutige ID.
+     * \~
+     * @author Zoltán Hrabovszki
+     * @date 2018-03-17
      */
     @OKW( FN = "Suchen" )
     public SeInputText navBarSearch = new SeInputText( "//input[@placeholder='Suchen ...']" );
@@ -47,6 +58,9 @@ public class hcMainNavigation extends SeAnyChildWindow
      * \image html hcHead/hc-navbar-filter.png
      * 
      * \TODO TODO: Greg: Das Suchfeld in der "Main Navigation" benötigt eine eindeutige ID.
+     * \~
+     * @author Zoltán Hrabovszki
+     * @date 2018-03-17
      */
     @OKW( FN = "Filter" )
     public SeAnyChildWindow navBarFilter = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-filter']" );
@@ -58,6 +72,9 @@ public class hcMainNavigation extends SeAnyChildWindow
      * \image html hcHead/hc-navbar-language.png
      * 
      * \TODO TODO: Greg: Das Suchfeld in der "Main Navigation" benötigt eine eindeutige ID.
+     * \~
+     * @author Zoltán Hrabovszki
+     * @date 2018-03-17
      */
     @OKW( FN = "Sprache" )
     public SeAnyChildWindow navBarLanguage = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-language']" );
@@ -69,6 +86,9 @@ public class hcMainNavigation extends SeAnyChildWindow
      * \image html hcHead/hc-navbar-notifications.png
      * 
      * \TODO TODO: Greg: Das Suchfeld in der "Main Navigation" benötigt eine eindeutige ID.
+     * \~
+     * @author Zoltán Hrabovszki
+     * @date 2018-03-17
      */
     @OKW( FN = "Benachrichtigung" )
     public SeAnyChildWindow navBarNotifications = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-notifications']" );
@@ -80,6 +100,9 @@ public class hcMainNavigation extends SeAnyChildWindow
      * \image html hcHead/hc-navbar-user-menu.png
      * 
      * \TODO TODO: Greg: Das Suchfeld in der "Main Navigation" benötigt eine eindeutige ID.
+     * \~
+     * @author Zoltán Hrabovszki
+     * @date 2018-03-17
      */
     @OKW( FN = "Benutzer" )
     public SeAnyChildWindow navbarUserMenu = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-user-menu']" );
@@ -89,6 +112,9 @@ public class hcMainNavigation extends SeAnyChildWindow
      * Schaltfläche, um zum Anmelde-Dialog zu gelangen.
      * 
      * \image html hcHead/LoginSignUp.png
+     * \~
+     * @author Zoltán Hrabovszki
+     * @date 2018-03-17
      */
     @OKW( FN = "Login / Sign-Up" )
     public SeLink Login = new SeLink( "//a[@href='/auth/login']" );
