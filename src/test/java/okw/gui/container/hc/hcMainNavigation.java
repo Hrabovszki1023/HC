@@ -6,14 +6,18 @@ import okw.gui.adapter.selenium.*;
 
 /**
  * @ingroup grouphcGuiContainer
+ * 
  * main navigation
  * GUI-Container Klasse enthält alle GUI-Objekte der Kopfzeile (Header).
  * 
  * \image html hcHead/hc-navbar.png
  * 
  * - Logo: hcMainNavigation.navBarBrand
- * - Suchfeld: hcMainNavigationnavSearch
- * 
+ * - Suchen: hcMainNavigation.navSearch
+ * - Filter: hcMainNavigation.navBarFilter
+ * - Sprache: hcMainNavigation.navBarLanguage
+ * - Benachrichtigung: hcMainNavigation.navBarNotifications
+ * - Benutzer: hcMainNavigation.navbarUserMenu
  */
 public class hcMainNavigation extends SeAnyChildWindow
 {
