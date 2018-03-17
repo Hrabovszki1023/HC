@@ -15,7 +15,7 @@
 <text text-anchor="start" x="7.5" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">okw.gui.container.hc.hcMain</text>
 <text text-anchor="middle" x="70" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">Navigation</text>
 <polyline fill="none" stroke="black" points="-0.5,-105 140.5,-105 "/>
-<text text-anchor="start" x="7.5" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">+ navbarBrand</text>
+<text text-anchor="start" x="7.5" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">+ navBarBrand</text>
 <text text-anchor="start" x="7.5" y="-82" font-family="Helvetica,sans-Serif" font-size="10.00">+ navBarSearch</text>
 <text text-anchor="start" x="7.5" y="-71" font-family="Helvetica,sans-Serif" font-size="10.00">+ navBarFilter</text>
 <text text-anchor="start" x="7.5" y="-60" font-family="Helvetica,sans-Serif" font-size="10.00">+ navBarLanguage</text>

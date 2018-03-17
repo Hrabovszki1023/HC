@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['navbarbrand',['navbarBrand',['../classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html#a98baf0047c3683227187f43b1d37de67',1,'okw::gui::container::hc::hcMainNavigation']]],
+  ['navbarbrand',['navBarBrand',['../classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html#ac0c2f7f581ca1157c7d149449899f34b',1,'okw::gui::container::hc::hcMainNavigation']]],
   ['navbarfilter',['navBarFilter',['../classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html#ad1b27a73847d6c700a0bc747f72c26d6',1,'okw::gui::container::hc::hcMainNavigation']]],
   ['navbarlanguage',['navBarLanguage',['../classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html#a45ff3b8ce03553f02498b7ee2427eb8e',1,'okw::gui::container::hc::hcMainNavigation']]],
   ['navbarnotifications',['navBarNotifications',['../classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html#ab8c405f28e07d699e9f49e63e1ae94d0',1,'okw::gui::container::hc::hcMainNavigation']]],
