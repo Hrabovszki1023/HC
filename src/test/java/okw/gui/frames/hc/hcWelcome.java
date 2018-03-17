@@ -15,7 +15,7 @@ public class hcWelcome extends SeBrowserChild
 {
 
     /**
-     * Kontainer-Klasse okw.gui.container.hc.hcHead - bindet den HC-Header auf dieser Seite ein.
+     * Kontainer-Klasse okw.gui.container.hc.hcMainNavigation - bindet die die hc-navbar auf dieser Seite ein.
      */
     public hcMainNavigation myHeader = new hcMainNavigation("", this.locator);
     

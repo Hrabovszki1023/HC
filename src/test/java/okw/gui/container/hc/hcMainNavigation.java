@@ -12,12 +12,12 @@ import okw.gui.adapter.selenium.*;
  * 
  * \image html hcHead/hc-navbar.png
  * 
- * FB | GUI-Adapter  | Bild
- * ------------- | ------------- | -------------
- *  "Logo" | hcMainNavigation.navBarBrand | \image html hcHead/hc-navbar-brand.png
- *  "Suchen" | hcMainNavigation.navBarSearch | \image html hcHead/hc-navbar-search.png
- *  "Filter" | hcMainNavigation.navBarFilter | \image html hcHead/hc-navbar-filter.png
- *  "Sprache" | hcMainNavigation.navBarLanguage | \image html hcHead/hc-navbar-language.png
+ *   FB        | GUI-Adapter                     | Bild
+ * ----------- | ------------------------------- | -------------
+ *  "Logo"     | hcMainNavigation.navBarBrand    | \image html hcHead/hc-navbar-brand.png
+ *  "Suchen"   | hcMainNavigation.navBarSearch   | \image html hcHead/hc-navbar-search.png
+ *  "Filter"   | hcMainNavigation.navBarFilter   | \image html hcHead/hc-navbar-filter.png
+ *  "Sprache"  | hcMainNavigation.navBarLanguage | \image html hcHead/hc-navbar-language.png
  *  "Benachrichtigung" | hcMainNavigation.navBarNotifications | \image html hcHead/hc-navbar-notifications.png
  *  "Benutzer" | hcMainNavigation.navbarUserMenu | \image html hcHead/hc-navbar-user-menu.png
  * \~
@@ -107,18 +107,7 @@ public class hcMainNavigation extends SeAnyChildWindow
     @OKW( FN = "Benutzer" )
     public SeAnyChildWindow navbarUserMenu = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-user-menu']" );
     
-    
-    /**
-     * Schaltfläche, um zum Anmelde-Dialog zu gelangen.
-     * 
-     * \image html hcHead/LoginSignUp.png
-     * \~
-     * @author Zoltán Hrabovszki
-     * @date 2018-03-17
-     */
-    @OKW( FN = "Login / Sign-Up" )
-    public SeLink Login = new SeLink( "//a[@href='/auth/login']" );
-    
+        
     public hcMainNavigation(String Locator, OKWLocator... Locators)
     {
         super( Locator, Locators );
