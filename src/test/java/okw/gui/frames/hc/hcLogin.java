@@ -28,13 +28,13 @@ public class hcLogin extends SeBrowserChild
      * User-Eingabefeld als Email-Adresse.
      */
     @OKW( FN = "User" )
-    public SeInputText User = new SeInputText( "//input[@placeholder='Email']" );
+    public SeInputText User = new SeInputText( "//input[@name='username']" );
 
     /**
      * Passwort-Eingabefeld.
      */
     @OKW( FN = "Password" )
-    public SeInputText Password = new SeInputText( "//input[@placeholder='Password']" );
+    public SeInputText Password = new SeInputText( "//input[@name='password']" );
 
     /**
      * Login Button zur Anmeldung in HC
@@ -81,8 +81,8 @@ public class hcLogin extends SeBrowserChild
     public void Sequens_Login( String SEQ_ID ) throws Exception
     {
         EN.SelectWindow( "HC Login" );
-        EN.SetValue( "User", "User" );
-        EN.SetValue( "Password", "Password" );
+        EN.SetValue( "User", "zh@openkeyword.de" );
+        EN.SetValue( "Password", "hannaveronika" );
         EN.ClickOn( "Login" );
         EN.VerifyExists( "Login", "NO" ); //@todo TODO: Prüfen ob anmeldung erfolgreich war, Fehlermeldung Vorhanden was auch immer?
     }

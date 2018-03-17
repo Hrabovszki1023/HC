@@ -1,0 +1,63 @@
+/*!
+
+ https://hub.docker.com/r/humanconnection/frontend-nuxt
+
+ 1. feathers-api
+ 2. frontend-nuxt jeweils:
+  - build image
+     + docker build -t xxx . (im Ordner hc-*)
+     
+  - run image 
+     + docker run -p 3000:3000 xxx
+  - stop image 
+     + sudo docker stop f04d85d1d8fb
+      * id: sudo docker ps
+  - shell into image 
+    + sudo docker exec -ti f04d85d1d8fb sh
+    
+ 
+
+You can see all your images with docker images whereas you can see your running containers with 
+
+    docker ps
+
+and you can see all containers with
+
+    docker ps -a.
+ 
+alle Container entfernen.
+
+One liner to stop / remove all of Docker containers: (https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
+In order to delete all containers, use the given command
+
+docker stop $(docker ps -a -q) # alles anhalten
+docker rm $(docker ps -a -q)   # elles löschen
+
+
+In order to delete all images, use the given command
+
+docker rmi $(docker images -q)
+
+ 
+    
+pull images
+   
+   * docker pull humanconnection/api-feathers
+   * docker pull humanconnection/frontend-nuxt
+   * docker pull apsl/tumbor
+   * 
+   
+  run/create container
+  
+  -d run as deamon
+   
+  
+  run container
+   * docker run -p 3000:3000 xxx 
+   
+   
+   yarn installieren
+   
+   https://yarnpkg.com/en/docs/install#linux-tab
+   
+ */
