@@ -1,9 +1,15 @@
 var hierarchy =
 [
+    [ "hc.testcases.hc.Counter.Counter", "classhc_1_1testcases_1_1hc_1_1_counter_1_1_counter.html", null ],
     [ "hc.testcases.hcguicomponent.hcButtonWithCountLabel.hcButtonWithCountLabel_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html", [
       [ "hc.testcases.hcguicomponent.hcButtonWithCountLabel.hcButtonWithCountLabel_Chrome_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___chrome___test.html", null ],
       [ "hc.testcases.hcguicomponent.hcButtonWithCountLabel.hcButtonWithCountLabel_Firefox_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test.html", null ],
       [ "hc.testcases.hcguicomponent.hcButtonWithCountLabel.hcButtonWithCountLabel_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___h_t_m_l_unit_driver___test.html", null ]
+    ] ],
+    [ "hc.testcases.hc.hcContibutionPost.hcContibutionPost_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___test.html", [
+      [ "hc.testcases.hc.hcContibutionPost.hcContibutionPost_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___chrome___test.html", null ],
+      [ "hc.testcases.hc.hcContibutionPost.hcContibutionPost_Firefox_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___firefox___test.html", null ],
+      [ "hc.testcases.hc.hcContibutionPost.hcContibutionPost_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___h_t_m_l_unit_driver___test.html", null ]
     ] ],
     [ "hc.testcases.hcguicomponent.hcEmoji.hcEmoji_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___test.html", [
       [ "hc.testcases.hcguicomponent.hcEmoji.hcEmoji_Chrome_Test", "classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___chrome___test.html", null ],
@@ -21,7 +27,7 @@ var hierarchy =
       [ "hc.testcases.hc.hcWelcome.hcWelcome_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___h_t_m_l_unit_driver___test.html", null ]
     ] ],
     [ "SeAnyChildWindow", null, [
-      [ "okw.gui.container.hc.hcHead", "classokw_1_1gui_1_1container_1_1hc_1_1hc_head.html", null ]
+      [ "okw.gui.container.hc.hcMainNavigation", "classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html", null ]
     ] ],
     [ "SeBrowserChild", null, [
       [ "okw.gui.frames.hc.HC_Introduction", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html", null ],

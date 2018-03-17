@@ -1,5 +1,17 @@
 var group__grouphc_gui_testcases =
 [
+    [ "hcContibutionPost_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___chrome___test.html", [
+      [ "FirefoxAfter", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___chrome___test.html#a6f793c544b0cb90ab9e106e7ee45b1ef", null ]
+    ] ],
+    [ "hcContibutionPost_Firefox_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___firefox___test.html", [
+      [ "FirefoxAfter", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___firefox___test.html#a2c14bb2220512f6142b6784b91c5f51a", null ]
+    ] ],
+    [ "hcContibutionPost_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___h_t_m_l_unit_driver___test.html", null ],
+    [ "hcContibutionPost_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___test.html", [
+      [ "tcCreateNewPost", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___test.html#a933133fc261982220407f8281c554e26", null ],
+      [ "myMem", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___test.html#ac4c5aff3543db4ea6efdbeeef83a5334", null ],
+      [ "name", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___test.html#a289a6e3d933482caf5e409d7e156fe10", null ]
+    ] ],
     [ "hcLogin_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___chrome___test.html", [
       [ "FirefoxAfter", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___chrome___test.html#ad20aba4917ea356d7626a61805bb59a5", null ]
     ] ],

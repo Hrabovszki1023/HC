@@ -1,5 +1,6 @@
 <map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
-<area shape="rect" id="node2" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html" title="okw.gui.adapter.selenium.hc.hc\lButton" alt="" coords="143,5,350,46"/>
-<area shape="rect" id="node4" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html" title="okw.gui.adapter.selenium.hc.hcLink" alt="" coords="131,71,362,97"/>
-<area shape="rect" id="node3" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html" title="Klasse representiert einen Button mit hc&#45;count&#45;label. " alt="" coords="411,5,618,46"/>
+<area shape="rect" id="node1" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___test.html" title="hc.testcases.hcguicomponent.hc\lButtonWithCountLabel.hcButtonWith\lCountLabel_Test" alt="" coords="6,85,242,141"/>
+<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___chrome___test.html" title="hc.testcases.hcguicomponent.hc\lButtonWithCountLabel.hcButtonWith\lCountLabel_Chrome_Test" alt="" coords="291,5,527,61"/>
+<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___firefox___test.html" title="hc.testcases.hcguicomponent.hc\lButtonWithCountLabel.hcButtonWith\lCountLabel_Firefox_Test" alt="" coords="291,85,527,141"/>
+<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hcguicomponent_1_1hc_button_with_count_label_1_1hc_button_with_count_label___h_t_m_l_unit_driver___test.html" title="hc.testcases.hcguicomponent.hc\lButtonWithCountLabel.hcButtonWith\lCountLabel_HTMLUnitDriver_Test" alt="" coords="291,165,527,221"/>
 </map>

@@ -3,6 +3,15 @@ var annotated_dup =
     [ "hc", null, [
       [ "testcases", null, [
         [ "hc", null, [
+          [ "Counter", null, [
+            [ "Counter", "classhc_1_1testcases_1_1hc_1_1_counter_1_1_counter.html", null ]
+          ] ],
+          [ "hcContibutionPost", null, [
+            [ "hcContibutionPost_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___chrome___test.html", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___chrome___test" ],
+            [ "hcContibutionPost_Firefox_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___firefox___test.html", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___firefox___test" ],
+            [ "hcContibutionPost_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___h_t_m_l_unit_driver___test.html", null ],
+            [ "hcContibutionPost_Test", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___test.html", "classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___test" ]
+          ] ],
           [ "hcLogin", null, [
             [ "hcLogin_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___chrome___test.html", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___chrome___test" ],
             [ "hcLogin_Firefox_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___firefox___test.html", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___firefox___test" ],
@@ -46,7 +55,7 @@ var annotated_dup =
         ] ],
         [ "container", null, [
           [ "hc", null, [
-            [ "hcHead", "classokw_1_1gui_1_1container_1_1hc_1_1hc_head.html", "classokw_1_1gui_1_1container_1_1hc_1_1hc_head" ]
+            [ "hcMainNavigation", "classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html", "classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation" ]
           ] ]
         ] ],
         [ "frames", null, [

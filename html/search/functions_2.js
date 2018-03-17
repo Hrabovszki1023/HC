@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['tccreatenewpost',['tcCreateNewPost',['../classhc_1_1testcases_1_1hc_1_1hc_contibution_post_1_1hc_contibution_post___test.html#a933133fc261982220407f8281c554e26',1,'hc::testcases::hc::hcContibutionPost::hcContibutionPost_Test']]],
   ['tclogexists',['tcLogExists',['../classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___test.html#a68bd0b51f85c81cd87df641366029482',1,'hc.testcases.hc.hcLogin.hcLogin_Test.tcLogExists()'],['../classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___test.html#aa25de7cfe97e94e4b15279dfb5640619',1,'hc.testcases.hcguicomponent.hcEmoji.hcEmoji_Test.tcLogExists()']]],
   ['tclogininvaliduser',['tcLoginInvalidUser',['../classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___test.html#abe7519917a8da93b2f3b6a73f3d06b9d',1,'hc::testcases::hc::hcLogin::hcLogin_Test']]],
   ['tcloginvaliduser',['tcLoginValidUser',['../classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___test.html#a5e2873f02b03d7b41d5552a8b95b7abf',1,'hc::testcases::hc::hcLogin::hcLogin_Test']]],
