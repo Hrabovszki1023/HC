@@ -36,7 +36,7 @@
   <td id="projectlogo"><img alt="Logo" src="Logo-ohne.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">HC
-   &#160;<span id="projectnumber">Build_ID: 41, Datum: 03.17.2018 08:53:27</span>
+   &#160;<span id="projectnumber">Build_ID: 42, Datum: 03.23.2018 05:57:08</span>
    </div>
    <div id="projectbrief">Das Wissens- und Aktionsnetzwerk für eine bessere Welt</div>
   </td>
@@ -99,6 +99,14 @@ $(document).ready(function(){initNavTree('group__grouphc_gui_sequences.html','')
 Funktionen</h2></td></tr>
 <tr class="memitem:ga9f1c47a8ba6bd92f466f6ef617f121fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__grouphc_gui_sequences.html#ga9f1c47a8ba6bd92f466f6ef617f121fc">okw.gui.frames.hc.hcLogin.Sequens_Login</a> (String SEQ_ID)  throws Exception     </td></tr>
 <tr class="separator:ga9f1c47a8ba6bd92f466f6ef617f121fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9153965e63ef2a4a89c46311ee673ec9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__grouphc_gui_sequences.html#ga9153965e63ef2a4a89c46311ee673ec9">okw.gui.frames.hc.hcLogin.Sequens_SmokeTestExists</a> (String SEQ_ID)  throws Exception     </td></tr>
+<tr class="separator:ga9153965e63ef2a4a89c46311ee673ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga59598b6341cd7273d30107d1fccc7327"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__grouphc_gui_sequences.html#ga59598b6341cd7273d30107d1fccc7327">okw.gui.frames.hc.hcLogin.SequensSmokeTestTextDE</a> (String SEQ_ID)  throws Exception     </td></tr>
+<tr class="separator:ga59598b6341cd7273d30107d1fccc7327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4b340250a5cb68cef06d9f66a6bb2e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__grouphc_gui_sequences.html#gad4b340250a5cb68cef06d9f66a6bb2e1">okw.gui.frames.hc.hcLogin.SequensSmokeTestTextEN</a> (String SEQ_ID)  throws Exception     </td></tr>
+<tr class="separator:gad4b340250a5cb68cef06d9f66a6bb2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafcab94cf31e077dc092d3dc6435394d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__grouphc_gui_sequences.html#gafcab94cf31e077dc092d3dc6435394d4">okw.gui.frames.hc.hcMainPage.Sequens_Smoke</a> (String SEQ_ID)  throws Exception     </td></tr>
+<tr class="separator:gafcab94cf31e077dc092d3dc6435394d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Ausführliche Beschreibung</h2>
 <h2 class="groupheader">Dokumentation der Funktionen</h2>
@@ -121,8 +129,100 @@ Funktionen</h2></td></tr>
 <li>Sequenz führt eine valide Anmeldung in HC durch. </li>
 </ul>
 
-<p class="definition">Definiert in Zeile <a class="el" href="hc_login_8java_source.html#l00081">81</a> der Datei <a class="el" href="hc_login_8java_source.html">hcLogin.java</a>.</p>
-<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        EN.SelectWindow( <span class="stringliteral">&quot;HC Login&quot;</span> );</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        EN.SetValue( <span class="stringliteral">&quot;User&quot;</span>, <span class="stringliteral">&quot;zh@openkeyword.de&quot;</span> );</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        EN.SetValue( <span class="stringliteral">&quot;Password&quot;</span>, <span class="stringliteral">&quot;hannaveronika&quot;</span> );</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        EN.ClickOn( <span class="stringliteral">&quot;Login&quot;</span> );</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Login&quot;</span>, <span class="stringliteral">&quot;NO&quot;</span> ); <span class="comment">//@todo TODO: Prüfen ob anmeldung erfolgreich war, Fehlermeldung Vorhanden was auch immer?</span></div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definiert in Zeile <a class="el" href="hc_login_8java_source.html#l00062">62</a> der Datei <a class="el" href="hc_login_8java_source.html">hcLogin.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        EN.SelectWindow( <span class="stringliteral">&quot;HC Login&quot;</span> );</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        EN.SetValue( <span class="stringliteral">&quot;User&quot;</span>, <span class="stringliteral">&quot;zh@openkeyword.de&quot;</span> );</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        EN.SetValue( <span class="stringliteral">&quot;Password&quot;</span>, <span class="stringliteral">&quot;hannaveronika&quot;</span> );</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        EN.ClickOn( <span class="stringliteral">&quot;Login&quot;</span> );</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Login&quot;</span>, <span class="stringliteral">&quot;NO&quot;</span> ); <span class="comment">//@todo TODO: Prüfen ob anmeldung erfolgreich war, Fehlermeldung Vorhanden was auch immer?</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="gafcab94cf31e077dc092d3dc6435394d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcab94cf31e077dc092d3dc6435394d4">&#9670;&nbsp;</a></span>Sequens_Smoke()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void okw.gui.frames.hc.hcMainPage.Sequens_Smoke </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>SEQ_ID</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Sequenz prüft, ob alle GUI Elemente "HC MainPage" existieren und ob diese technisch (Objekt Erkennung) erreichbar sind. </li>
+</ul>
+
+<p class="definition">Definiert in Zeile <a class="el" href="hc_main_page_8java_source.html#l00045">45</a> der Datei <a class="el" href="hc_main_page_8java_source.html">hcMainPage.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        EN.SelectWindow( <span class="stringliteral">&quot;HC MainPage&quot;</span> );</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        </div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">// Kopfzeile</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Logo&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );        </div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Suchen&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Filter&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );        </div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Sprache&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );        </div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Benachrichtigung&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Benutzer&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        </div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Add New Contribution&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );      </div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        </div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="ga9153965e63ef2a4a89c46311ee673ec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9153965e63ef2a4a89c46311ee673ec9">&#9670;&nbsp;</a></span>Sequens_SmokeTestExists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void okw.gui.frames.hc.hcLogin.Sequens_SmokeTestExists </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>SEQ_ID</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Sequenz prüft, ob alle GUI Elemente "HC Login" existieren und ob diese technisch (Objekt Erkennung) erreichbar sind. </li>
+</ul>
+
+<p class="definition">Definiert in Zeile <a class="el" href="hc_login_8java_source.html#l00078">78</a> der Datei <a class="el" href="hc_login_8java_source.html">hcLogin.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    {</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        EN.SelectWindow( <span class="stringliteral">&quot;HC Login&quot;</span> );</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Language&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;User&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span>  );</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Password&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span>  );</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Login&quot;</span>, <span class="stringliteral">&quot;YES&quot;</span> );        </div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="ga59598b6341cd7273d30107d1fccc7327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59598b6341cd7273d30107d1fccc7327">&#9670;&nbsp;</a></span>SequensSmokeTestTextDE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void okw.gui.frames.hc.hcLogin.SequensSmokeTestTextDE </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>SEQ_ID</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Sequenz Prüft die Deutschen Texteinträge der GUI-Objekte. </li>
+</ul>
+
+<p class="definition">Definiert in Zeile <a class="el" href="hc_login_8java_source.html#l00091">91</a> der Datei <a class="el" href="hc_login_8java_source.html">hcLogin.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    {</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        EN.SelectWindow( <span class="stringliteral">&quot;HC Login&quot;</span> );</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        </div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        EN.Select( <span class="stringliteral">&quot;Language&quot;</span>, <span class="stringliteral">&quot;DE&quot;</span> );</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="comment">// Language</span></div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        EN.VerifyTooltip( <span class="stringliteral">&quot;Language&quot;</span>, <span class="stringliteral">&quot;switch to englisch&quot;</span> );</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        </div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="comment">// User</span></div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;User&quot;</span>, <span class="stringliteral">&quot;E-Mail&quot;</span>  );</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        </div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="comment">// Password</span></div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        EN.VerifyExists( <span class="stringliteral">&quot;Password&quot;</span>, <span class="stringliteral">&quot;Passwort&quot;</span>  );</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="comment">// Login Button</span></div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        EN.VerifyCaption( <span class="stringliteral">&quot;Login&quot;</span>, <span class="stringliteral">&quot;Anmelden&quot;</span> );        </div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="gad4b340250a5cb68cef06d9f66a6bb2e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad4b340250a5cb68cef06d9f66a6bb2e1">&#9670;&nbsp;</a></span>SequensSmokeTestTextEN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void okw.gui.frames.hc.hcLogin.SequensSmokeTestTextEN </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>SEQ_ID</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Sequenz Prüft die Deutschen Texteinträge der GUI-Objekte. </li>
+</ul>
+
+<p class="definition">Definiert in Zeile <a class="el" href="hc_login_8java_source.html#l00114">114</a> der Datei <a class="el" href="hc_login_8java_source.html">hcLogin.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        EN.SelectWindow( <span class="stringliteral">&quot;HC Login&quot;</span> );</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        </div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        EN.Select( <span class="stringliteral">&quot;Language&quot;</span>, <span class="stringliteral">&quot;EN&quot;</span> );</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="comment">// Language</span></div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        EN.VerifyTooltip( <span class="stringliteral">&quot;Language&quot;</span>, <span class="stringliteral">&quot;zu deutsch wechseln&quot;</span> );</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        </div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="comment">// User</span></div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="comment">//EN.VerifyPlaceholder( &quot;User&quot;, &quot;Email&quot;  );</span></div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="comment">//EN.VerifyTooltip( &quot;User&quot;, &quot;&quot; );</span></div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        </div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="comment">// Password</span></div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="comment">//EN.VerifyPlaceholder( &quot;Password&quot;, &quot;Password&quot;  );</span></div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="comment">//EN.VerifyTooltip( &quot;User&quot;, &quot;&quot; );</span></div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="comment">// Login Button</span></div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        EN.VerifyCaption( <span class="stringliteral">&quot;Login&quot;</span>, <span class="stringliteral">&quot;Login&quot;</span> );</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="comment">//EN.VerifyTooltip( &quot;Login&quot;, &quot;&quot; );        </span></div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -130,7 +230,7 @@ Funktionen</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Erzeugt am Sam Mär 17 2018 08:54:15 für HC von
+    <li class="footer">Erzeugt am Fre Mär 23 2018 05:57:40 für HC von
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

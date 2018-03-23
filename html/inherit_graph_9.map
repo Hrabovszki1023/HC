@@ -1,5 +1,6 @@
 <map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
-<area shape="rect" id="node2" href="$classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html" title="okw.gui.frames.hc.HC\l_Introduction" alt="" coords="195,5,349,46"/>
-<area shape="rect" id="node3" href="$classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html" title="Klasse representiert den Login&#45;Dialog von Human Connection " alt="" coords="183,71,361,97"/>
-<area shape="rect" id="node4" href="$classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome.html" title="Frame&#45;Klasse representiert die &#39;Welcome &#45; Human Connection&#39;&#45;Seite von Human Connection ..." alt="" coords="171,121,373,148"/>
+<area shape="rect" id="node2" href="$classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html" title="okw.gui.frames.hc.HC\l_Introduction" alt="" coords="206,5,359,46"/>
+<area shape="rect" id="node3" href="$classokw_1_1gui_1_1frames_1_1hc_1_1hc_contributions_write.html" title="Frame&#45;Klasse representiert die &#39;Neuen Beitrag Anlegen&#39;&#45;Seite von Human Connection ..." alt="" coords="171,70,395,111"/>
+<area shape="rect" id="node4" href="$classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html" title="Klasse representiert den Login&#45;Dialog von Human Connection " alt="" coords="193,136,372,163"/>
+<area shape="rect" id="node5" href="$classokw_1_1gui_1_1frames_1_1hc_1_1hc_main_page.html" title="Frame&#45;Klasse representiert die &#39;Welcome &#45; Human Connection&#39;&#45;Seite von Human Connection ..." alt="" coords="180,187,385,213"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
-<area shape="rect" id="node1" href="$classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___test.html" title="Test&#45;Klasse zur Prüfung der Implementierung der Klasse okw.gui.adapter.selenium.hc.hcEmoji. " alt="" coords="6,70,213,111"/>
-<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___chrome___test.html" title="hc.testcases.hc.hcWelcome.hc\lWelcome_Chrome_Test" alt="" coords="265,5,471,46"/>
-<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___firefox___test.html" title="hc.testcases.hc.hcWelcome.hc\lWelcome_Firefox_Test" alt="" coords="265,70,471,111"/>
-<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___h_t_m_l_unit_driver___test.html" title="hc.testcases.hc.hcWelcome.hc\lWelcome_HTMLUnitDriver_Test" alt="" coords="262,135,474,177"/>
+<area shape="rect" id="node1" href="$classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___test.html" title="Test&#45;Klasse zur Prüfung der Implementierung der Klasse okw.gui.adapter.selenium.hc.hcEmoji. " alt="" coords="6,70,215,111"/>
+<area shape="rect" id="node2" href="$classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___chrome___test.html" title="hc.testcases.hc.hcMainPage.hc\lMainPage_Chrome_Test" alt="" coords="267,5,477,46"/>
+<area shape="rect" id="node3" href="$classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___firefox___test.html" title="hc.testcases.hc.hcMainPage.hc\lMainPage_Firefox_Test" alt="" coords="267,70,477,111"/>
+<area shape="rect" id="node4" href="$classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___h_t_m_l_unit_driver___test.html" title="hc.testcases.hc.hcMainPage.hc\lMainPage_HTMLUnitDriver_Test" alt="" coords="265,135,479,177"/>
 </map>

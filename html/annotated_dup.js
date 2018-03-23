@@ -18,11 +18,11 @@ var annotated_dup =
             [ "hcLogin_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___h_t_m_l_unit_driver___test.html", null ],
             [ "hcLogin_Test", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___test.html", "classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___test" ]
           ] ],
-          [ "hcWelcome", null, [
-            [ "hcWelcome_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___chrome___test.html", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___chrome___test" ],
-            [ "hcWelcome_Firefox_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___firefox___test.html", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___firefox___test" ],
-            [ "hcWelcome_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___h_t_m_l_unit_driver___test.html", null ],
-            [ "hcWelcome_Test", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___test.html", "classhc_1_1testcases_1_1hc_1_1hc_welcome_1_1hc_welcome___test" ]
+          [ "hcMainPage", null, [
+            [ "hcMainPage_Chrome_Test", "classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___chrome___test.html", "classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___chrome___test" ],
+            [ "hcMainPage_Firefox_Test", "classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___firefox___test.html", "classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___firefox___test" ],
+            [ "hcMainPage_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___h_t_m_l_unit_driver___test.html", null ],
+            [ "hcMainPage_Test", "classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___test.html", "classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___test" ]
           ] ]
         ] ],
         [ "hcguicomponent", null, [
@@ -61,8 +61,9 @@ var annotated_dup =
         [ "frames", null, [
           [ "hc", null, [
             [ "HC_Introduction", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction.html", "classokw_1_1gui_1_1frames_1_1hc_1_1_h_c___introduction" ],
+            [ "hcContributionsWrite", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_contributions_write.html", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_contributions_write" ],
             [ "hcLogin", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_login" ],
-            [ "hcWelcome", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome.html", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_welcome" ]
+            [ "hcMainPage", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_main_page.html", "classokw_1_1gui_1_1frames_1_1hc_1_1hc_main_page" ]
           ] ]
         ] ]
       ] ]
