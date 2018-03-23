@@ -1,4 +1,4 @@
-package hc.testcases.hc.hcWelcome;
+package hc.testcases.hc.hcMainPage;
 
 import okw.log.Logger_Sngltn;
 import okw.log.log2html.Log2HTML;
@@ -11,7 +11,7 @@ import org.junit.*;
 * 
 * @author zoltan
 */
-public class hcWelcome_Firefox_Test extends hcWelcome_Test
+public class hcMainPage_Firefox_Test extends hcMainPage_Test
 {
 	static Log2HTML myLog2HTML = null;
 
@@ -24,7 +24,7 @@ public class hcWelcome_Firefox_Test extends hcWelcome_Test
 		// Reset des Loggers: Alle geladenen Instanzen löschen
         Logger_Sngltn.init();
 
-        myLog2HTML = new Log2HTML("target/hcWelcome_Firefox_Test.html");
+        myLog2HTML = new Log2HTML("target/hcMainPage_Firefox_Test.html");
         Logger_Sngltn.getInstance().addLogger(myLog2HTML);
         Logger_Sngltn.getInstance().setDebugMode(false);
 	}

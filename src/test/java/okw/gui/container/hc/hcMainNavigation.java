@@ -39,6 +39,7 @@ public class hcMainNavigation extends SeAnyChildWindow
     @OKW( FN = "Logo" )
     public SeInputText navBarBrand = new SeInputText( "//div[@class='hc-navbar-item hc-navbar-brand']" );
 
+    
     /**
      * Eingabefeld "Suchen..."
      * 
@@ -49,7 +50,7 @@ public class hcMainNavigation extends SeAnyChildWindow
      * @date 2018-03-17
      */
     @OKW( FN = "Suchen" )
-    public SeInputText navBarSearch = new SeInputText( "//input[@placeholder='Suchen ...']" );
+    public SeInputText navBarSearch = new SeInputText( "//div[@class='search is-hidden-mobile']//input[@id='nav-search']" );
 
 
     /**
@@ -63,7 +64,7 @@ public class hcMainNavigation extends SeAnyChildWindow
      * @date 2018-03-17
      */
     @OKW( FN = "Filter" )
-    public SeAnyChildWindow navBarFilter = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-filter']" );
+    public SeAnyChildWindow navBarFilter = new SeAnyChildWindow( "(//div[@class='hc-navbar-item hc-navbar-filter']/div/div/a)[1]" );
 
     
     /**
@@ -77,7 +78,7 @@ public class hcMainNavigation extends SeAnyChildWindow
      * @date 2018-03-17
      */
     @OKW( FN = "Sprache" )
-    public SeAnyChildWindow navBarLanguage = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-language']" );
+    public SeAnyChildWindow navBarLanguage = new SeAnyChildWindow( "(//div[@class='hc-navbar-item hc-navbar-language is-hidden-mobile']//a)[1]" );
 
     
     /**
@@ -91,7 +92,7 @@ public class hcMainNavigation extends SeAnyChildWindow
      * @date 2018-03-17
      */
     @OKW( FN = "Benachrichtigung" )
-    public SeAnyChildWindow navBarNotifications = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-notifications']" );
+    public SeAnyChildWindow navBarNotifications = new SeAnyChildWindow( "(//div[@class='hc-navbar-item hc-navbar-notifications']/div/a)[1]" );
 
     
     /**
@@ -105,7 +106,7 @@ public class hcMainNavigation extends SeAnyChildWindow
      * @date 2018-03-17
      */
     @OKW( FN = "Benutzer" )
-    public SeAnyChildWindow navbarUserMenu = new SeAnyChildWindow( "//div[@class='hc-navbar-item hc-navbar-user-menu']" );
+    public SeAnyChildWindow navbarUserMenu = new SeAnyChildWindow( "(//div[@class='hc-navbar-item hc-navbar-user-menu']/div/a)[1]" );
     
         
     public hcMainNavigation(String Locator, OKWLocator... Locators)

@@ -1,4 +1,4 @@
-package hc.testcases.hc.hcWelcome;
+package hc.testcases.hc.hcMainPage;
 
 import org.junit.Ignore;
 import org.junit.Rule;
@@ -9,7 +9,6 @@ import okw.OKW_Memorize_Sngltn;
 import okw.core.EN;
 
 /**
-* @ingroup grouphcGuiTestcases
 * 
 * Test-Klasse zur Prüfung der Implementierung der Klasse okw.gui.adapter.selenium.hc.hcEmoji
 * 
@@ -18,7 +17,7 @@ import okw.core.EN;
 *  @date 2017-11-04
 */
 @Ignore
-public class hcWelcome_Test
+public class hcMainPage_Test
 {
     OKW_Memorize_Sngltn     myMem = OKW_Memorize_Sngltn.getInstance();
 
@@ -29,7 +28,9 @@ public class hcWelcome_Test
 
     /**
      * \~german
-     * Prüft ob alle Oberflächen Elemente Vorhanden sind.
+     * * @ingroup grouphcGuiTestcases
+     * 
+     * Smoketest prüft, ob alle GUI-Elemente existieren.
      * 
      *  \~
      *  @author Zoltán Hrabovszki
@@ -41,26 +42,15 @@ public class hcWelcome_Test
       EN.BeginTest( name.getMethodName() );
       EN.StartApp( ApplicationName ); // ApplicationName is in this case "Firefox" or "Chrome"
       
-      // TODO -> Define Enviroment var for HC URL
-      EN.SetValue( "URL", "http://165.227.153.233" );
+      // \todo TODO: ZH -> Define enviroment var for HC URL!
+      //EN.SetValue( "URL", "http://165.227.153.233" );
+      EN.SetValue( "URL", "http://alpha.human-connection.org" );
       
-      EN.SelectWindow( "HC Welcome" );
-      
-      EN.VerifyExists( "Suchen", "YES" );
-      EN.VerifyIsActive( "Suchen", "YES" );
-      
-      EN.VerifyExists( "Login / Sign-Up", "YES" );
-      EN.ClickOn( "Login / Sign-Up" );
-      
-      EN.SelectWindow( "HC Login" );
-      EN.VerifyExists( "User", "YES" );
-      EN.VerifyExists( "Password", "YES" );
-      EN.VerifyExists( "Login", "YES" );
+      // Anmelden mit validem User
+      EN.Sequence( "HC Login", "Sequens_Login", "TestUser1" );
 
-      EN.ClickOn( "Schließen" );
-
-      EN.SelectWindow( "HC Welcome" );
-      EN.VerifyExists( "Suchen", "YES" );
+      // Alle Elemente Der Haupseite Prüfen
+      EN.Sequence( "HC MainPage", "Sequens_Smoke", "TestUser1" );
       
       EN.StopApp( ApplicationName );
       EN.EndTest();

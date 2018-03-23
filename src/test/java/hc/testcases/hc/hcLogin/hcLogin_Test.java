@@ -28,6 +28,31 @@ public class hcLogin_Test
     public TestName         name  = new TestName();
 
     /**
+     * * @ingroup grouphcGuiTestcases
+     * 
+     * Smoketest prüft, ob alle GUI-Elemente des Login Dialoges existieren.
+     * 
+     *  \~
+     *  @author Zoltán Hrabovszki
+     *  @date 2018-04-23
+     */ 
+    @Test
+    public void tcWelcomeAllGuiKomponents() throws Exception
+    {
+        EN.BeginTest( name.getMethodName() );
+        EN.StartApp( ApplicationName ); // ApplicationName is in this case "Firefox" or "Chrome"
+        
+        // \todo TODO: ZH -> Define enviroment var for HC URL!
+        //EN.SetValue( "URL", "http://165.227.153.233" );
+        EN.SetValue( "URL", "http://alpha.human-connection.org" );
+      
+        EN.Sequence( "HC Login", "Sequens_SmokeTestExists", "TestUser1" );
+        
+        EN.StopApp( ApplicationName );
+        EN.EndTest();
+    }
+
+    /**
      * \~german
      * Testet das Schlüsselwort VerifyValue( FN, ExpVal ) der Klasse okw.gui.adapter.selenium.hc.hcEmoji ab.
      * 
@@ -38,7 +63,7 @@ public class hcLogin_Test
      *  @author Zoltán Hrabovszki
      *  @date 2017-11-04
      */ 
-    @Test
+    //@Test
     public void tcLogExists() throws Exception
     {
       EN.BeginTest( name.getMethodName() );
@@ -60,7 +85,7 @@ public class hcLogin_Test
      *  @author Zoltán Hrabovszki
      *  @date 2017-11-14
      */ 
-    @Test
+    //@Test
     public void tcLoginValidUser() throws Exception
     {
       EN.BeginTest( name.getMethodName() );
@@ -89,7 +114,7 @@ public class hcLogin_Test
      *  @author Zoltán Hrabovszki
      *  @date 2017-11-14
      */ 
-    @Test
+    //@Test
     public void tcLoginInvalidUser() throws Exception
     {
       EN.BeginTest( name.getMethodName() );

@@ -60,7 +60,37 @@ public class hcContibutionPost_Test
     @Rule
     public TestName         name  = new TestName();
 
-  
+    
+    /**
+     * @ingroup grouphcGuiTestcases
+     * \~german
+     * Smoketest Beitrag "Post" an.
+     *  \~
+     *  @author Zoltán Hrabovszki
+     *  @date 2018-03-14
+     */ 
+    @Test
+    public void tcContributionPost_SmokeTest() throws Exception
+    {
+      EN.BeginTest( name.getMethodName() );
+      EN.StartApp( ApplicationName );
+      EN.SetValue( "URL", "http://alpha.human-connection.org" );
+      
+      // Login Dialog mit validem User
+      EN.Sequence( "HC Login", "Sequens_Login", "TestUser1" );
+
+      // Im Hauptfenster auf "+" Neuer Betrag Klicken
+      EN.SelectWindow( "HC MainPage" );
+      EN.ClickOn( "Add New Contribution" );
+
+      EN.Sequence( "HC Neuen Beitrag Anlegen", "Sequens_SmokeTest", "" );
+            
+      EN.StopApp( ApplicationName );
+      EN.EndTest();
+    }
+
+    
+    
   /**
      * \~german
      * Legt einen neuen öffentlichen Beitrag "Post" an.
@@ -79,8 +109,9 @@ public class hcContibutionPost_Test
       EN.Sequence( "HC Login", "Sequens_Login", "TestUser1" );
 
       // Im Hauptfenster auf "+" Neuer Betrag Klicken
-      EN.SelectWindow( "HC Home" );
+      EN.SelectWindow( "HC MainPage" );
       EN.ClickOn( "Add New Contribution" );
+
       
       // Im Contribution-Create-Fenster einen Post anlegen und Speichern
       EN.SelectWindow( "New Contribution" );
