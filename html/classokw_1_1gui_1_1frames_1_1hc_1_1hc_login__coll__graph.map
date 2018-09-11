@@ -1,3 +1,5 @@
 <map id="okw.gui.frames.hc.hcLogin" name="okw.gui.frames.hc.hcLogin">
-<area shape="rect" id="node3" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html" title="{okw.gui.adapter.selenium.hc.hc\lButton\n||+ hcButton()\l+ hcButton()\l+ getCaption()\l}" alt="" coords="145,134,351,255"/>
+<area shape="rect" id="node3" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html" title="{okw.gui.adapter.selenium.hc.hc\lButton\n||+ hcButton()\l+ hcButton()\l+ getCaption()\l}" alt="" coords="145,175,351,297"/>
+<area shape="rect" id="node5" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_language_switch.html" title="Ermittelt den textuellen Inhalt der Caption/Überschrift des. " alt="" coords="375,161,581,311"/>
+<area shape="rect" id="node9" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_notices_toast_danger.html" title="{okw.gui.adapter.selenium.hc.hc\lNoticesToastDanger\n||+ hcNoticesToastDanger()\l}" alt="" coords="617,190,823,282"/>
 </map>

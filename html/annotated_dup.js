@@ -49,7 +49,10 @@ var annotated_dup =
               [ "hcButton", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button" ],
               [ "hcButtonWithCountLabel", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_button_with_count_label" ],
               [ "hcEmoji", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji" ],
-              [ "hcLink", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link" ]
+              [ "hcLanguageSwitch", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_language_switch.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_language_switch" ],
+              [ "hcLink", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link" ],
+              [ "hcListBoxLanguage", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_list_box_language.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_list_box_language" ],
+              [ "hcNoticesToastDanger", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_notices_toast_danger.html", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_notices_toast_danger" ]
             ] ]
           ] ]
         ] ],

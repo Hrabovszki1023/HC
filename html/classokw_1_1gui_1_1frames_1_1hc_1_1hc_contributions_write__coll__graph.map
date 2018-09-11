@@ -1,4 +1,4 @@
 <map id="okw.gui.frames.hc.hcContributionsWrite" name="okw.gui.frames.hc.hcContributionsWrite">
-<area shape="rect" id="node3" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html" title="{okw.gui.adapter.selenium.hc.hcLink\n||+ hcLink()\l+ hcLink()\l+ getCaption()\l}" alt="" coords="145,163,375,269"/>
-<area shape="rect" id="node5" href="$classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html" title="main navigation GUI&#45;Container Klasse enthält alle GUI&#45;Objekte der Kopfzeile (Header). " alt="" coords="399,133,587,299"/>
+<area shape="rect" id="node3" href="$classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html" title="{okw.gui.adapter.selenium.hc.hcLink\n||+ hcLink()\l+ hcLink()\l+ getCaption()\l}" alt="" coords="145,189,375,296"/>
+<area shape="rect" id="node5" href="$classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html" title="main navigation GUI&#45;Container Klasse enthält alle GUI&#45;Objekte der Kopfzeile (Header). " alt="" coords="399,189,587,296"/>
 </map>

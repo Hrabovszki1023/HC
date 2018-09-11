@@ -27,6 +27,7 @@ var hierarchy =
       [ "hc.testcases.hc.hcMainPage.hcMainPage_HTMLUnitDriver_Test", "classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___h_t_m_l_unit_driver___test.html", null ]
     ] ],
     [ "SeAnyChildWindow", null, [
+      [ "okw.gui.adapter.selenium.hc.hcNoticesToastDanger", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_notices_toast_danger.html", null ],
       [ "okw.gui.container.hc.hcMainNavigation", "classokw_1_1gui_1_1container_1_1hc_1_1hc_main_navigation.html", null ]
     ] ],
     [ "SeBrowserChild", null, [
@@ -43,5 +44,11 @@ var hierarchy =
     ] ],
     [ "SeImage", null, [
       [ "okw.gui.adapter.selenium.hc.hcEmoji", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_emoji.html", null ]
+    ] ],
+    [ "SeLink", null, [
+      [ "okw.gui.adapter.selenium.hc.hcLanguageSwitch", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_language_switch.html", null ]
+    ] ],
+    [ "SeSelect", null, [
+      [ "okw.gui.adapter.selenium.hc.hcListBoxLanguage", "classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_list_box_language.html", null ]
     ] ]
 ];

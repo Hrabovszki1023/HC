@@ -17,7 +17,9 @@ var searchData=
   ['hcemoji_5ffirefox_5ftest',['hcEmoji_Firefox_Test',['../classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___firefox___test.html',1,'hc::testcases::hcguicomponent::hcEmoji']]],
   ['hcemoji_5fhtmlunitdriver_5ftest',['hcEmoji_HTMLUnitDriver_Test',['../classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___h_t_m_l_unit_driver___test.html',1,'hc::testcases::hcguicomponent::hcEmoji']]],
   ['hcemoji_5ftest',['hcEmoji_Test',['../classhc_1_1testcases_1_1hcguicomponent_1_1hc_emoji_1_1hc_emoji___test.html',1,'hc::testcases::hcguicomponent::hcEmoji']]],
+  ['hclanguageswitch',['hcLanguageSwitch',['../classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_language_switch.html',1,'okw::gui::adapter::selenium::hc']]],
   ['hclink',['hcLink',['../classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_link.html',1,'okw::gui::adapter::selenium::hc']]],
+  ['hclistboxlanguage',['hcListBoxLanguage',['../classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_list_box_language.html',1,'okw::gui::adapter::selenium::hc']]],
   ['hclogin',['hcLogin',['../classokw_1_1gui_1_1frames_1_1hc_1_1hc_login.html',1,'okw::gui::frames::hc']]],
   ['hclogin_5fchrome_5ftest',['hcLogin_Chrome_Test',['../classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___chrome___test.html',1,'hc::testcases::hc::hcLogin']]],
   ['hclogin_5ffirefox_5ftest',['hcLogin_Firefox_Test',['../classhc_1_1testcases_1_1hc_1_1hc_login_1_1hc_login___firefox___test.html',1,'hc::testcases::hc::hcLogin']]],
@@ -29,5 +31,6 @@ var searchData=
   ['hcmainpage_5ffirefox_5ftest',['hcMainPage_Firefox_Test',['../classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___firefox___test.html',1,'hc::testcases::hc::hcMainPage']]],
   ['hcmainpage_5fhtmlunitdriver_5ftest',['hcMainPage_HTMLUnitDriver_Test',['../classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___h_t_m_l_unit_driver___test.html',1,'hc::testcases::hc::hcMainPage']]],
   ['hcmainpage_5ftest',['hcMainPage_Test',['../classhc_1_1testcases_1_1hc_1_1hc_main_page_1_1hc_main_page___test.html',1,'hc::testcases::hc::hcMainPage']]],
+  ['hcnoticestoastdanger',['hcNoticesToastDanger',['../classokw_1_1gui_1_1adapter_1_1selenium_1_1hc_1_1hc_notices_toast_danger.html',1,'okw::gui::adapter::selenium::hc']]],
   ['human_20connection',['Human Connection',['../index.html',1,'']]]
 ];
