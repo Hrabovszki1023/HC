@@ -31,8 +31,8 @@ public class hcMainPage extends SeBrowserChild
     {
         setLocator( "//div[@id='page-name-index']" );
         
-        myHeader = new hcMainNavigation("%1$s", this.getLOCATOR());
-        myNewPost = new hcMainNavigation("%1$s//a[@href='/contributions/write']", this.getLOCATOR() );
+        myHeader = new hcMainNavigation("$L1$", this.getLOCATOR());
+        myNewPost = new hcMainNavigation("$L1$//a[@href='/contributions/write']", this.getLOCATOR() );
         
     }
     

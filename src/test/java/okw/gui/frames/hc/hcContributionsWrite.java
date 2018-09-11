@@ -11,7 +11,7 @@ import okw.gui.container.hc.hcMainNavigation;
  * [Human Connection](https://www.humanconnection.org/login)
  * 
  */
-@OKW(FN = "HC Neuen Beitrag Anlegen")
+@OKW(FN = "Add New Contribution")
 public class hcContributionsWrite extends SeBrowserChild
 {
 
@@ -20,35 +20,47 @@ public class hcContributionsWrite extends SeBrowserChild
      */
     public hcMainNavigation myHeader = null;
     
-    
+    // ===========================================
+    // ContributionType : Post; Can Do
+
     /**
      * Wählt den Beitragstyp "Post" aus.
      */
     @OKW(FN = "Post")
     public hcLink myNewPost = null;
     
-
     /**
      * Wählt den Beitragstyp "Ca Do" aus.
      */
     @OKW(FN = "Can Do")
     public hcLink myNewCanDo = null;
 
-
+    // ===========================================
+    // Title
     /**
      * Setzt den Titel/Überschrift eines Beitrages.
      */
     @OKW(FN = "Title")
-    public SeInputText myTitle = new SeInputText("%1$s//a[@innertText='Post']", this.getLOCATOR() );
+    public SeInputText myTitle = null;
     
+    // Content (I): ${TheQuickBrownFox}
+    
+    // Categories of Content (I):
+    // Art, Culture & Sports; Consumption & Sustainability; Cooperation & Development;Democracy & Politics; Economy & Finances; Education & Sciences; Energy & Technology; Environment & Nature; Freedom of Press & Opinion; Global Peace & Non-Violence; Happiness & Values; Health & Wellbeing; Human Rights & Justice; IT, Internet & Data Privacy; Just For Fun
+    
+    // Tags (I): ${IGNORE}
+    
+    // Language (I): ${IGNORE}; English; Deutsch
+    
+    // Visibility (I): ${IGNORE}; Public; Private; Friends
     
     public hcContributionsWrite()
     {
         setLocator( "//div[@id='page-name-contributions-write'" );
-        myHeader   = new hcMainNavigation("%1$", this.getLOCATOR());
-        myNewPost  = new hcLink("%1$s//a[@textContent='Post']", this.getLOCATOR() );
-        myNewCanDo = new hcLink("%1$s//a[@textContent='Can Do']", this.getLOCATOR() );
-        myTitle    = new SeInputText("%1$s//a[@innertText='Post']", this.getLOCATOR() );
         
+        myHeader   = new hcMainNavigation("$L1$", this.getLOCATOR());
+        myNewPost  = new hcLink("$L1$//a[@textContent='Post']", this.getLOCATOR() );
+        myNewCanDo = new hcLink("$L1$//a[@textContent='Can Do']", this.getLOCATOR() );
+        myTitle    = new SeInputText("$L1$//a[@innertText='Post']", this.getLOCATOR() );
     }    
 }

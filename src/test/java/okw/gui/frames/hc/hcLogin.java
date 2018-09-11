@@ -17,12 +17,25 @@ import okw.gui.adapter.selenium.hc.*;
 @OKW(FN = "HC Login")
 public class hcLogin extends SeBrowserChild
 {
+    
+    /* Meldungen: Überprüfe Deine Zugangsdaten!
+     *
+     * <div class="notices is-top">
+     *     <div class="toast is-danger is-top" style="">
+     *          <div>Überprüfe Deine Zugangsdaten!</div>
+     *     </div>
+     * </div>
+     * 
+     * Hinweis: Diese Meldung hängt nicht unter dem Baum 
+     */
+    @OKW( FN = "Error", VerifyTooltip_PT=1000, VerifyTooltip_TO=2 )
+    public hcNoticesToastDanger myNoticesToastDanger = new hcNoticesToastDanger( "//div[class='notices is-top']" );
         
     /**
      * User-Eingabefeld als Email-Adresse.
      */
-    @OKW( FN = "Language" )
-    public SeLink myLanguage = null;
+    @OKW( FN = "Language", VerifyTooltip_PT=1000, VerifyTooltip_TO=2 )
+    public hcLanguageSwitch myLanguage = null;
 
     
     /**
@@ -45,18 +58,22 @@ public class hcLogin extends SeBrowserChild
     
     
     public hcLogin()
-    {
+    { 
         this.setLocator( "//div[@id='page-name-auth-login']" );
+        // this.setLocator( "//div[@TESTID='HC Login']" );
         
-        myLanguage = new SeLink( "%1$s//a/img[@class='flag']/..", this.getLOCATOR() );
+        myLanguage = new hcLanguageSwitch( "$L1$//a/img[@class='flag']/..", this.getLOCATOR() );
         
-        User = new SeInputText( "%1$s//input[@name='username']", this.getLOCATOR() );
-        Password = new SeInputText( "%1$s//input[@name='password']", this.getLOCATOR() );
-        Login = new hcButton( "%1$s//button[@name='submit']", this.getLOCATOR() );
+        User = new SeInputText( "$L1$//input[@name='email']", this.getLOCATOR() );
+        Password = new SeInputText( "$L1$//input[@name='password']", this.getLOCATOR() );
+        Login = new hcButton( "$L1$//button[@name='submit']", this.getLOCATOR() );
+
+        // Überprüfe Deine Zugangsdaten!
+        
     }
     
     /**
-     *  * @ingroup grouphcGuiSequences 
+     *  @ingroup grouphcGuiSequences 
      *  Sequenz führt eine valide Anmeldung in HC durch. 
      */
     public void Sequens_Login( String SEQ_ID ) throws Exception
@@ -68,47 +85,8 @@ public class hcLogin extends SeBrowserChild
         EN.VerifyExists( "Login", "NO" ); //@todo TODO: Prüfen ob anmeldung erfolgreich war, Fehlermeldung Vorhanden was auch immer?
     }
 
-    
     /**
-     *  * @ingroup grouphcGuiSequences 
-     *  Sequenz prüft, ob alle GUI Elemente "HC Login" existieren 
-     *  und ob diese technisch (Objekt Erkennung)
-     *  erreichbar sind.  
-     */
-    public void Sequens_SmokeTestExists( String SEQ_ID ) throws Exception
-    {
-        EN.SelectWindow( "HC Login" );
-        EN.VerifyExists( "Language", "YES" );
-        EN.VerifyExists( "User", "YES"  );
-        EN.VerifyExists( "Password", "YES"  );
-        EN.VerifyExists( "Login", "YES" );        
-    }
-
-    /**
-     *  * @ingroup grouphcGuiSequences 
-     *  Sequenz Prüft die Deutschen Texteinträge der GUI-Objekte. 
-     */
-    public void SequensSmokeTestTextDE( String SEQ_ID ) throws Exception
-    {
-        EN.SelectWindow( "HC Login" );
-        
-        EN.Select( "Language", "DE" );
-
-        // Language
-        EN.VerifyTooltip( "Language", "switch to englisch" );
-        
-        // User
-        EN.VerifyExists( "User", "E-Mail"  );
-        
-        // Password
-        EN.VerifyExists( "Password", "Passwort"  );
-
-        // Login Button
-        EN.VerifyCaption( "Login", "Anmelden" );        
-    }
-
-    /**
-     *  * @ingroup grouphcGuiSequences 
+     *  @ingroup grouphcGuiSequences 
      *  Sequenz Prüft die Deutschen Texteinträge der GUI-Objekte. 
      */
     public void SequensSmokeTestTextEN( String SEQ_ID ) throws Exception

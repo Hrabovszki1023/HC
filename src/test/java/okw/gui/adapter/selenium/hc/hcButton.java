@@ -2,6 +2,9 @@ package okw.gui.adapter.selenium.hc;
 
 import java.util.ArrayList;
 
+import javax.xml.xpath.XPathExpressionException;
+
+import okw.OKW_Helper;
 import okw.gui.OKWLocator;
 import okw.gui.adapter.selenium.SeButton;
 
@@ -25,6 +28,8 @@ public class hcButton extends SeButton
      * \~german Ermittelt den textuellen Inhalt der Caption/Überschrift des
      * Objektes.
      * 
+     * Methode wird Überschrieben, weil bei HC ein trim() der Werte notwendig ist.
+     * 
      * @return Rückgabe des Textuellen Inhaltes der Caption/Überschrift.
      * \~english
      * \~
@@ -45,7 +50,19 @@ public class hcButton extends SeButton
             this.WaitForMe();
 
             // The Attribute "value" wird als Beschriftung angezeigt...
-            lvLsReturn.add( this.Me().getAttribute( "innerHTML" ) );
+            String innerText = this.Me().getAttribute( "innerText" ).trim();
+            
+            /*try
+            {
+                innerText = okw.OKW_Helper.getRightFromDelimiterNumber( innerText, " ", 1 );
+            }
+            catch (XPathExpressionException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            */
+            lvLsReturn.add( innerText );
         }
         finally
         {

@@ -112,6 +112,7 @@ public class hcMainNavigation extends SeAnyChildWindow
     public hcMainNavigation(String Locator, OKWLocator... Locators)
     {
         super( Locator, Locators );
+                
     }
     
 }
